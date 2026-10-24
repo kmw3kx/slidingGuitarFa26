@@ -1,0 +1,10 @@
+(version 1)
+(rule "Permitted layers 1"
+	(constraint assertion "A.Layer == 'B.Cu'")
+)
+(rule "Minimum connection width 1"
+	(constraint connection_width (min 0.2794mm))
+)
+(rule "Copper to edge clearance 1"
+	(constraint edge_clearance (min 2.54mm))
+)
