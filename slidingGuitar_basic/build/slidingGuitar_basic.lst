@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   34              		@ link register save eliminated.
   35              	.LBB363:
   36              	.LBI363:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 2
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 2
 
 
   37              		.file 2 "../libDaisy/src/dev/codec_ak4556.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   27:../libDaisy/src/sys/system.h ****             FREQ_400MHZ,
   28:../libDaisy/src/sys/system.h ****             FREQ_480MHZ,
   29:../libDaisy/src/sys/system.h ****         };
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 3
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 3
 
 
   30:../libDaisy/src/sys/system.h **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   84:../libDaisy/src/sys/system.h ****         } status;
   85:../libDaisy/src/sys/system.h ****         uint32_t data;
   86:../libDaisy/src/sys/system.h ****         enum class Version : uint32_t
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 4
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 4
 
 
   87:../libDaisy/src/sys/system.h ****         {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   38:../libDaisy/src/hid/usb.h ****     typedef void (*ReceiveCallback)(uint8_t* buff, uint32_t* len);
   39:../libDaisy/src/hid/usb.h **** 
   40:../libDaisy/src/hid/usb.h ****     UsbHandle() {}
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 5
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 5
 
 
   41:../libDaisy/src/hid/usb.h **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   47:../libDaisy/src/per/adc.h ****         SPEED_8CYCLES_5,
   48:../libDaisy/src/per/adc.h ****         SPEED_16CYCLES_5,
   49:../libDaisy/src/per/adc.h ****         SPEED_32CYCLES_5,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 6
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 6
 
 
   50:../libDaisy/src/per/adc.h ****         SPEED_64CYCLES_5,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  104:../libDaisy/src/per/adc.h ****         OVS_512,  /**< & */
  105:../libDaisy/src/per/adc.h ****         OVS_1024, /**< & */
  106:../libDaisy/src/per/adc.h ****         OVS_LAST, /**< & */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 7
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 7
 
 
  107:../libDaisy/src/per/adc.h ****     };
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   45:../libDaisy/src/hid/audio.h ****     enum class Result
   46:../libDaisy/src/hid/audio.h ****     {
   47:../libDaisy/src/hid/audio.h ****         OK,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 8
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 8
 
 
   48:../libDaisy/src/hid/audio.h ****         ERR,
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   76              		.syntax unified
   77              		.thumb
   78              		.thumb_func
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 9
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 9
 
 
   79              		.fpu fpv5-d16
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   90              		.loc 7 44 2 view .LVU13
   91              	.LBB368:
   92              		.loc 7 44 23 view .LVU14
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 10
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 10
 
 
   93 0000 9AB1     		cbz	r2, .L11
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  139              		.p2align 2,,3
  140              		.weak	_ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev
  141              		.syntax unified
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 11
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 11
 
 
  142              		.thumb
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   48:../libDaisy/src/util/FIFO.h ****         success */
   49:../libDaisy/src/util/FIFO.h ****     bool PushBack(const T& elementToAdd)
   50:../libDaisy/src/util/FIFO.h ****     {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 12
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 12
 
 
   51:../libDaisy/src/util/FIFO.h ****         if(!IsFull())
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  105:../libDaisy/src/util/FIFO.h ****         else
  106:../libDaisy/src/util/FIFO.h ****         {
  107:../libDaisy/src/util/FIFO.h ****             const auto result = buffer_[bufferOut_];
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 13
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 13
 
 
  108:../libDaisy/src/util/FIFO.h ****             bufferOut_++;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  162:../libDaisy/src/util/FIFO.h ****     }
  163:../libDaisy/src/util/FIFO.h **** 
  164:../libDaisy/src/util/FIFO.h ****     /** returns true, if the buffer is empty */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 14
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 14
 
 
  165:../libDaisy/src/util/FIFO.h ****     bool IsEmpty() const { return bufferIn_ == bufferOut_; }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  219:../libDaisy/src/util/FIFO.h ****             nextIndex++;
  220:../libDaisy/src/util/FIFO.h ****             if(index >= bufferSize_)
  221:../libDaisy/src/util/FIFO.h ****                 index -= bufferSize_;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 15
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 15
 
 
  222:../libDaisy/src/util/FIFO.h ****             if(nextIndex >= bufferSize_)
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  276:../libDaisy/src/util/FIFO.h **** 
  277:../libDaisy/src/util/FIFO.h ****         size_t index = bufferOut_ + idx;
  278:../libDaisy/src/util/FIFO.h ****         if(index >= bufferSize_)
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 16
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 16
 
 
  279:../libDaisy/src/util/FIFO.h ****             index -= bufferSize_;
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
    5:../libDaisy/src/hid/midi.h **** #include <stdint.h>
    6:../libDaisy/src/hid/midi.h **** #include <stdlib.h>
    7:../libDaisy/src/hid/midi.h **** #include <algorithm>
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 17
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 17
 
 
    8:../libDaisy/src/hid/midi.h **** #include <functional>
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   62:../libDaisy/src/hid/midi.h ****     /** @brief Initialization of UART using config struct */
   63:../libDaisy/src/hid/midi.h ****     inline void Init(Config config)
   64:../libDaisy/src/hid/midi.h ****     {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 18
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 18
 
 
   65:../libDaisy/src/hid/midi.h ****         UartHandler::Config uart_config;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  119:../libDaisy/src/hid/midi.h ****          *  MIDI instance's byte FIFO that feeds the MIDI parser.
  120:../libDaisy/src/hid/midi.h ****          *
  121:../libDaisy/src/hid/midi.h ****          *  TODO: Handle UartHandler errors better/at all.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 19
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 19
 
 
  122:../libDaisy/src/hid/midi.h ****          *  (If there is a UART error, there's not really any recovery
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
    8:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** // Free Software Foundation; either version 3, or (at your option)
    9:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** // any later version.
   10:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 20
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 20
 
 
   11:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** // This library is distributed in the hope that it will be useful,
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   65:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****    *  Trait identifying "location-invariant" types, meaning that the
   66:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****    *  address of the object (or any of its members) will not escape.
   67:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****    *  Trivially copyable types are location-invariant and users can
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 21
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 21
 
 
   68:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****    *  specialize this trait for other types.
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  122:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****     template<typename _Functor>
  123:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       class _Base_manager
  124:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 22
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 22
 
 
  125:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       protected:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  179:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       public:
  180:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	static bool
  181:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	_M_manager(_Any_data& __dest, const _Any_data& __source,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 23
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 23
 
 
  182:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 		   _Manager_operation __op)
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  236:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	_M_init_functor(_Any_data& __functor, _Functor&& __f, false_type)
  237:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	{ __functor._M_access<_Functor*>() = new _Functor(std::move(__f)); }
  238:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       };
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 24
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 24
 
 
  239:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  276:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	    break;
  277:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** #endif
  278:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	  case __get_functor_ptr:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 25
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 25
 
 
  279:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	    __dest._M_access<_Functor*>() = _Base::_M_get_pointer(__source);
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  230              		.loc 10 245 12 view .LVU43
  231 0016 0846     		mov	r0, r1
  232              	.LVL9:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 26
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 26
 
 
  245:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	_M_manager(_M_functor, _M_functor, __destroy_functor);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
    5:../libDaisy/src/hid/usb_midi.h **** #include "hid/usb.h"
    6:../libDaisy/src/hid/usb_midi.h **** #include "sys/system.h"
    7:../libDaisy/src/hid/usb_midi.h **** #include "util/ringbuffer.h"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 27
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 27
 
 
    8:../libDaisy/src/hid/usb_midi.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  264 001a 2046     		mov	r0, r4
  265 001c 10BD     		pop	{r4, pc}
  266              		.loc 9 159 21 view .LVU54
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 28
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 28
 
 
  267              		.cfi_endproc
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   44:../libDaisy/src/daisy_seed.h **** 
   45:../libDaisy/src/daisy_seed.h ****     /**
   46:../libDaisy/src/daisy_seed.h ****     Wait some ms before going on.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 29
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 29
 
 
   47:../libDaisy/src/daisy_seed.h ****     \param del Delay time in ms.
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  101:../libDaisy/src/daisy_seed.h ****      *  This can be useful when adding a secondary codec,
  102:../libDaisy/src/daisy_seed.h ****      *  the result of this function can be passed to the audio reinit
  103:../libDaisy/src/daisy_seed.h ****      *  with an SAI2 configuration
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 30
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 30
 
 
  104:../libDaisy/src/daisy_seed.h ****      */
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  322              		.thumb
  323              		.thumb_func
  324              		.fpu fpv5-d16
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 31
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 31
 
 
  326              	_Z15USBH_DisconnectPv:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  374              		@ link register save eliminated.
   40:slidingGuitar_basic.cpp **** }
  375              		.loc 7 40 5 view .LVU66
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 32
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 32
 
 
  376              	.LBB401:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  423 0002 0E49     		ldr	r1, .L34
  424 0004 0E48     		ldr	r0, .L34+4
  425              	.LVL21:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 33
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 33
 
 
   28:slidingGuitar_basic.cpp ****     {
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  461              		.loc 7 31 9 is_stmt 1 view .LVU83
  462              	.LBB435:
  463              	.LBI435:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 34
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 34
 
 
  161:../libDaisy/src/hid/midi.h ****     {
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  177:../libDaisy/src/hid/midi.h ****      * MidiEvent Queue will begin to fill, and can be checked with HasEvents() */
  178:../libDaisy/src/hid/midi.h ****     void StartReceive()
  503              		.loc 9 178 10 view .LVU98
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 35
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 35
 
 
  504              	.LBB439:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  183:../libDaisy/src/hid/midi.h ****     /** Starts listening on the selected input mode(s).
  184:../libDaisy/src/hid/midi.h ****      * MidiEvent Queue will begin to fill, and can be checked with HasEvents()
  185:../libDaisy/src/hid/midi.h ****      * MIDI events of type SystemRealTime will be delivered synchronously by callback.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 36
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 36
 
 
  186:../libDaisy/src/hid/midi.h ****      * All other events are on the queue */
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  240:../libDaisy/src/hid/midi.h ****                 if(realtime_callback_)
  241:../libDaisy/src/hid/midi.h ****                 {
  242:../libDaisy/src/hid/midi.h ****                     realtime_callback_(event);
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 37
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 37
 
 
  243:../libDaisy/src/hid/midi.h ****                     return;
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  588              	.LBB464:
  589              	.LBI464:
  304:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****     : public _Maybe_unary_or_binary_function<_Res, _ArgTypes...>,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 38
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 38
 
 
  305:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       private _Function_base
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  359:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	__x.swap(*this);
  360:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       }
  361:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 39
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 39
 
 
  362:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       /**
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  416:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	function(std::move(__x)).swap(*this);
  417:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 	return *this;
  418:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       }
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 40
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 40
 
 
  419:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  473:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
  474:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       /**
  475:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****        *  @brief Swap the targets of two %function objects.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 41
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 41
 
 
  476:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****        *  @param __x A %function with identical call signature.
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  509:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****        *  stored by @c this.
  510:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****        */
  511:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       _Res operator()(_ArgTypes... __args) const;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 42
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 42
 
 
  512:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  566:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****     struct __function_guide_helper<
  567:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****       _Res (_Tp::*) (_Args...) const noexcept(_Nx)
  568:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****     >
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 43
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 43
 
 
  569:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h ****     { using type = _Res(_Args...); };
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  612              	.LBE484:
  248:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\std_function.h **** 
  613              		.loc 10 248 29 is_stmt 1 view .LVU114
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 44
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 44
 
 
  614              	.LBB485:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  658 0048 E5D0     		beq	.L56
  659              	.L39:
  660              	.LVL37:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 45
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 45
 
 
  661              	.LBB470:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  704              	.LVL41:
   54:../libDaisy/src/util/FIFO.h ****                 bufferIn_ -= bufferSize_;
  705              		.loc 8 54 29 view .LVU136
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 46
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 46
 
 
  706 0078 D5E92A23 		ldrd	r2, r3, [r5, #168]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  752              		.cfi_endproc
  753              	.LFE5687:
  755              		.section	.rodata.main.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 47
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 47
 
 
  756              		.align	2
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  789              		.cfi_offset 5, -32
  790              		.cfi_offset 6, -28
  791              		.cfi_offset 7, -24
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 48
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 48
 
 
  792              		.cfi_offset 8, -20
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   38:../libDaisy/src/hid/usb_host.h ****         OK,
   39:../libDaisy/src/hid/usb_host.h ****         BUSY,
   40:../libDaisy/src/hid/usb_host.h ****         FAIL,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 49
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 49
 
 
   41:../libDaisy/src/hid/usb_host.h ****         NOT_SUPPORTED,
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  132:../libDaisy/src/daisy_seed.h ****     */
  133:../libDaisy/src/daisy_seed.h ****     static void StartLog(bool wait_for_pc = false)
  819              		.loc 1 133 17 view .LVU156
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 50
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 50
 
 
  820              	.LBB561:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   63:slidingGuitar_basic.cpp ****     usbhConfig.class_active_callback = USBH_ClassActive,
  852              		.loc 7 63 38 view .LVU169
  853 0022 864A     		ldr	r2, .L92+16
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 51
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 51
 
 
   65:slidingGuitar_basic.cpp **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   70:slidingGuitar_basic.cpp ****     uint32_t blink_time = 0;
  894              		.loc 7 70 39 is_stmt 0 view .LVU186
  895 004a FFF7FEFF 		bl	_ZN5daisy6System6GetNowEv
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 52
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 52
 
 
  896              	.LVL52:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  938              	.L58:
   79:slidingGuitar_basic.cpp **** 	while(1) {
  939              		.loc 7 79 2 is_stmt 1 view .LVU201
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 53
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 53
 
 
  940              	.LBB570:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  977              	.LVL64:
  212:../libDaisy/src/hid/midi.h **** 
  978              		.loc 9 212 49 view .LVU214
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 54
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 54
 
 
  979              	.LBE573:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1019 00aa 4DD4     		bmi	.L88
  1020              	.L63:
  1021              	.LVL70:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 55
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 55
 
 
  174:../libDaisy/src/util/FIFO.h ****             numElements += bufferSize_;
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1063 00d6 18F80A80 		ldrb	r8, [r8, r10]	@ zero_extendqisi2
  1064              	.LVL73:
  109:../libDaisy/src/util/FIFO.h ****                 bufferOut_ -= bufferSize_;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 56
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 56
 
 
  1065              		.loc 8 109 13 view .LVU242
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  112:slidingGuitar_basic.cpp ****                             midi.SendMessage(bytes, 3);
  113:slidingGuitar_basic.cpp ****                         }
  114:slidingGuitar_basic.cpp ****                         break;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 57
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 57
 
 
  115:slidingGuitar_basic.cpp ****                     default: break;
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1138 0118 0132     		adds	r2, r2, #1
  1139 011a 0CA9     		add	r1, sp, #48
  1140              	.LVL81:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 58
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 58
 
 
   53:../libDaisy/src/util/FIFO.h ****             if(bufferIn_ >= bufferSize_)
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1182              	.LVL86:
  175:../libDaisy/src/util/FIFO.h ****         return size_t(numElements);
  1183              		.loc 8 175 25 view .LVU277
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 59
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 59
 
 
  1184              	.LBE583:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1226              	.LBB618:
  107:../libDaisy/src/util/FIFO.h ****             bufferOut_++;
  1227              		.loc 8 107 40 is_stmt 0 view .LVU289
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 60
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 60
 
 
  1228 0162 03EBC302 		add	r2, r3, r3, lsl #3
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
    2:../libDaisy/src/hid/MidiEvent.h **** #define SYSEX_BUFFER_LEN 128
    3:../libDaisy/src/hid/MidiEvent.h **** 
    4:../libDaisy/src/hid/MidiEvent.h **** namespace daisy
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 61
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 61
 
 
    5:../libDaisy/src/hid/MidiEvent.h **** {
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   59:../libDaisy/src/hid/MidiEvent.h **** };
   60:../libDaisy/src/hid/MidiEvent.h **** 
   61:../libDaisy/src/hid/MidiEvent.h **** enum ChannelModeType
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 62
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 62
 
 
   62:../libDaisy/src/hid/MidiEvent.h **** {
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  116:../libDaisy/src/hid/MidiEvent.h **** {
  117:../libDaisy/src/hid/MidiEvent.h ****     int     channel; /**< & */
  118:../libDaisy/src/hid/MidiEvent.h ****     uint8_t program; /**< & */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 63
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 63
 
 
  119:../libDaisy/src/hid/MidiEvent.h **** };
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  173:../libDaisy/src/hid/MidiEvent.h ****     uint8_t song; /**< & */
  174:../libDaisy/src/hid/MidiEvent.h **** };
  175:../libDaisy/src/hid/MidiEvent.h **** /** Struct containing sound off data.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 64
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 64
 
 
  176:../libDaisy/src/hid/MidiEvent.h **** Can be made from MidiEvent
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  230:../libDaisy/src/hid/MidiEvent.h **** */
  231:../libDaisy/src/hid/MidiEvent.h **** struct PolyModeOnEvent
  232:../libDaisy/src/hid/MidiEvent.h **** {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 65
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 65
 
 
  233:../libDaisy/src/hid/MidiEvent.h ****     int channel; /**< & */
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  287:../libDaisy/src/hid/MidiEvent.h ****         m.value          = data[1];
  288:../libDaisy/src/hid/MidiEvent.h ****         return m;
  289:../libDaisy/src/hid/MidiEvent.h ****     }
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 66
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 66
 
 
  290:../libDaisy/src/hid/MidiEvent.h **** 
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  344:../libDaisy/src/hid/MidiEvent.h ****     {
  345:../libDaisy/src/hid/MidiEvent.h ****         MTCQuarterFrameEvent m;
  346:../libDaisy/src/hid/MidiEvent.h ****         m.message_type = (data[0] & 0x70) >> 4;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 67
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 67
 
 
  347:../libDaisy/src/hid/MidiEvent.h ****         m.value        = data[0] & 0x0f;
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  401:../libDaisy/src/hid/MidiEvent.h ****     MonoModeOnEvent AsMonoModeOn()
  402:../libDaisy/src/hid/MidiEvent.h ****     {
  403:../libDaisy/src/hid/MidiEvent.h ****         MonoModeOnEvent m;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 68
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 68
 
 
  404:../libDaisy/src/hid/MidiEvent.h ****         m.channel      = channel;
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1305              	.LBB634:
  1306              	.LBB628:
  1307              	.LBB625:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 69
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 69
 
 
  1308              	.LBB623:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1345 01b0 0746     		mov	r7, r0
  1346              	.LVL101:
   82:slidingGuitar_basic.cpp ****             hw.SetLed(ledState);
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 70
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 70
 
 
  1347              		.loc 7 82 9 is_stmt 1 view .LVU323
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1389 01d4 4FF0000B 		mov	fp, #0
  1390 01d8 9022     		movs	r2, #144
  1391 01da 0021     		movs	r1, #0
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 71
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 71
 
 
  1392 01dc 0CA8     		add	r0, sp, #48
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1432              		.loc 7 112 29 view .LVU349
  1433              	.LVL111:
  1434              	.LBB602:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 72
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 72
 
 
  1435              	.LBI599:
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1478              	.LBB578:
  180:../libDaisy/src/hid/midi.h ****     }
  1479              		.loc 9 180 27 is_stmt 0 view .LVU361
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 73
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 73
 
 
  1480 0216 0B4A     		ldr	r2, .L92+24
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1530 026c 08000000 		.word	midi+8
  1531 0270 00000000 		.word	_ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv
  1532 0274 00000000 		.word	.LC4
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 74
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 74
 
 
  1533              	.LBE592:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   14:../libDaisy/src/per/qspi.h ****     __attribute__((section( \
   15:../libDaisy/src/per/qspi.h ****         ".qspiflash_data"))) /**< used for reading memory in memory_mapped mode. */
   16:../libDaisy/src/per/qspi.h **** #define DSY_QSPI_BSS        \
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 75
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 75
 
 
   17:../libDaisy/src/per/qspi.h ****     __attribute__((section( \
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   71:../libDaisy/src/per/qspi.h ****         read from starting address 0x90000000. Writing is not
   72:../libDaisy/src/per/qspi.h ****         possible in this mode. \n
   73:../libDaisy/src/per/qspi.h ****         Indirect Polling mode: Device driver enabled.
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 76
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 76
 
 
   74:../libDaisy/src/per/qspi.h ****         */
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  128:../libDaisy/src/per/qspi.h ****         \param address Address to write to
  129:../libDaisy/src/per/qspi.h ****         \param size Buffer size
  130:../libDaisy/src/per/qspi.h ****         \param buffer Buffer to write
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 77
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 77
 
 
  131:../libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
    4:../libDaisy/src/daisy_core.h **** #include <stdint.h>
    5:../libDaisy/src/daisy_core.h **** #include <stdlib.h>
    6:../libDaisy/src/daisy_core.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 78
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 78
 
 
    7:../libDaisy/src/daisy_core.h **** #if defined(_MSC_VER)
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   61:../libDaisy/src/daisy_core.h ****  *  channel of a non-interleaved input buffer named in */
   62:../libDaisy/src/daisy_core.h **** #define IN_R in[1]
   63:../libDaisy/src/daisy_core.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 79
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 79
 
 
   64:../libDaisy/src/daisy_core.h **** /** 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  118:../libDaisy/src/daisy_core.h ****     \return Scaled number.
  119:../libDaisy/src/daisy_core.h **** */
  120:../libDaisy/src/daisy_core.h **** FORCE_INLINE float s162f(int16_t x)
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 80
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 80
 
 
  121:../libDaisy/src/daisy_core.h **** {
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  175:../libDaisy/src/daisy_core.h **** enum GPIOPort
  176:../libDaisy/src/daisy_core.h **** {
  177:../libDaisy/src/daisy_core.h ****     PORTA, /**< Port A */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 81
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 81
 
 
  178:../libDaisy/src/daisy_core.h ****     PORTB, /**< Port B */
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1609              	.LBE757:
  1610              	.LBE751:
  1611              	.LBE750:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 82
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 82
 
 
  1612              	.LBB758:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   38:../libDaisy/src/per/dac.h **** 
   39:../libDaisy/src/per/dac.h ****     /** Sets the Mode for the DAC channels.
   40:../libDaisy/src/per/dac.h ****      **
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 83
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 83
 
 
   41:../libDaisy/src/per/dac.h ****      ** Polling mode uses the blocking mode to transmit a single value at a time.
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1633              	.LBB766:
  1634              	.LBI766:
  1635              		.file 18 "../libDaisy/src/per/gpio.h"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 84
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 84
 
 
    1:../libDaisy/src/per/gpio.h **** #pragma once
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   55:../libDaisy/src/per/gpio.h ****     };
   56:../libDaisy/src/per/gpio.h **** 
   57:../libDaisy/src/per/gpio.h ****     /** @brief Configuration for a given GPIO */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 85
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 85
 
 
   58:../libDaisy/src/per/gpio.h ****     struct Config
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1671              	.LBE780:
  1672              	.LBB794:
  1673              	.LBI794:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 86
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 86
 
 
   96:../libDaisy/src/sys/system.h ****     ~System() {}
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   22:../libDaisy/src/per/sai.h ****  * Use SAI Handle like this:
   23:../libDaisy/src/per/sai.h ****  *
   24:../libDaisy/src/per/sai.h ****  *  SaiHandle::Config sai_config;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 87
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 87
 
 
   25:../libDaisy/src/per/sai.h ****  *  sai_config.periph          = SaiHandle::Config::Peripheral::SAI_1;
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   79:../libDaisy/src/per/sai.h ****         enum class Sync
   80:../libDaisy/src/per/sai.h ****         {
   81:../libDaisy/src/per/sai.h ****             MASTER,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 88
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 88
 
 
   82:../libDaisy/src/per/sai.h ****             SLAVE,
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1728              	.LBE815:
   21:../libDaisy/src/daisy_seed.h ****     ~DaisySeed() {}
  1729              		.loc 1 21 17 view .LVU411
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 89
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 89
 
 
  1730 0006 4FF60B73 		movw	r3, #65291
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
   21:../libDaisy/src/daisy_seed.h ****     ~DaisySeed() {}
  1780              		.loc 1 21 17 view .LVU419
  1781 001a C0E90041 		strd	r4, r1, [r0]
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 90
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 90
 
 
  1782              	.LBB820:
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1831 0030 C0E91144 		strd	r4, r4, [r0, #68]
  1832              	.LBE787:
  1833              	.LBE789:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 91
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 91
 
 
  1834              	.LBE791:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1879              	.LBI839:
  299:../libDaisy/src/util/FIFO.h **** {
  300:../libDaisy/src/util/FIFO.h ****   public:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 92
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 92
 
 
  301:../libDaisy/src/util/FIFO.h ****     /** Creates an empty FIFO */
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  158:../libDaisy/src/hid/midi.h ****     ~MidiHandler() {}
  1926              		.loc 9 158 5 view .LVU441
  1927 0058 C0F8A030 		str	r3, [r0, #160]
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 93
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 93
 
 
  1928              	.LBB874:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  1977              	.LBE859:
  1978              	.LBE877:
  1979              	.LBE882:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 94
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 94
 
 
  1980              	.LBE885:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2029              	.LBE880:
  2030              	.LBE883:
  2031              	.LBE903:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 95
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 95
 
 
   10:slidingGuitar_basic.cpp **** USBHostHandle usbHost;
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  127:../libDaisy/src/hid/usb_host.h ****     bool GetPresent();
  128:../libDaisy/src/hid/usb_host.h **** 
  129:../libDaisy/src/hid/usb_host.h ****     /** Returns name of the connected devices if there is one
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 96
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 96
 
 
  130:../libDaisy/src/hid/usb_host.h ****      */
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2078              	.LVL126:
  2079              		.loc 13 139 37 view .LVU459
  2080              	.LBE907:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 97
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 97
 
 
  2081              	.LBE908:
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2130              	.LBE915:
  2131              	.LBE917:
  2132              		.cfi_endproc
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 98
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 98
 
 
  2133              	.LFE5844:
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2168      6500
  2169              		.global	event_log
  2170              		.global	usbHost
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 99
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 99
 
 
  2171              		.global	midi
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2223              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
  2224              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
  2225              		.file 23 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 100
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 100
 
 
  2226              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
@@ -5993,67 +5993,67 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 1
  2275              		.file 73 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\locale.h"
  2276              		.file 74 "../libDaisy/Middlewares/ST/STM32_USB_Host_Library/Class/MIDI/Inc/usbh_midi.h"
  2277              		.file 75 "<built-in>"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 101
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 101
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 slidingGuitar_basic.cpp
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:73     .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:81     .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:138    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:146    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 _ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:146    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 _ZN5daisy4FIFOINS_9MidiEventELj128EED1Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:168    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:176    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:176    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED1Ev
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:273    .rodata._Z12USBH_ConnectPv.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:277    .text._Z12USBH_ConnectPv:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:285    .text._Z12USBH_ConnectPv:00000000 _Z12USBH_ConnectPv
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:307    .text._Z12USBH_ConnectPv:00000008 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:314    .rodata._Z15USBH_DisconnectPv.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:318    .text._Z15USBH_DisconnectPv:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:326    .text._Z15USBH_DisconnectPv:00000000 _Z15USBH_DisconnectPv
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:348    .text._Z15USBH_DisconnectPv:00000008 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:355    .rodata._Z10USBH_ErrorPv.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:359    .text._Z10USBH_ErrorPv:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:367    .text._Z10USBH_ErrorPv:00000000 _Z10USBH_ErrorPv
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:389    .text._Z10USBH_ErrorPv:00000008 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:396    .rodata._Z16USBH_ClassActivePv.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:400    .text._Z16USBH_ClassActivePv:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:408    .text._Z16USBH_ClassActivePv:00000000 _Z16USBH_ClassActivePv
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:530    .text._Z16USBH_ClassActivePv:0000003c $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2195   .bss.midi:00000000 midi
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:552    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:544    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:756    .rodata.main.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:770    .text.startup.main:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:778    .text.startup.main:00000000 main
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:1514   .text.startup.main:0000022c $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2182   .bss.event_log:00000000 event_log
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:1545   .text.startup._GLOBAL__sub_I_hw:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:1552   .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2121   .text.startup._GLOBAL__sub_I_hw:0000009c $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2136   .init_array:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2139   .rodata.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2202   .bss.usbHost:00000000 usbHost
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2189   .bss.hw:00000000 hw
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2174   .rodata:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2179   .bss.event_log:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2185   .bss.hw:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2192   .bss.midi:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2198   .bss.usbHost:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2205   .rodata.CSWTCH.30:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s:2209   .rodata.CSWTCH.30:00000000 CSWTCH.30
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:73     .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:81     .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:138    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:146    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 _ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:146    .text._ZN5daisy4FIFOINS_9MidiEventELj128EED2Ev:00000000 _ZN5daisy4FIFOINS_9MidiEventELj128EED1Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:168    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:176    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:176    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED2Ev:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED1Ev
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:273    .rodata._Z12USBH_ConnectPv.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:277    .text._Z12USBH_ConnectPv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:285    .text._Z12USBH_ConnectPv:00000000 _Z12USBH_ConnectPv
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:307    .text._Z12USBH_ConnectPv:00000008 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:314    .rodata._Z15USBH_DisconnectPv.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:318    .text._Z15USBH_DisconnectPv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:326    .text._Z15USBH_DisconnectPv:00000000 _Z15USBH_DisconnectPv
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:348    .text._Z15USBH_DisconnectPv:00000008 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:355    .rodata._Z10USBH_ErrorPv.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:359    .text._Z10USBH_ErrorPv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:367    .text._Z10USBH_ErrorPv:00000000 _Z10USBH_ErrorPv
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:389    .text._Z10USBH_ErrorPv:00000008 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:396    .rodata._Z16USBH_ClassActivePv.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:400    .text._Z16USBH_ClassActivePv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:408    .text._Z16USBH_ClassActivePv:00000000 _Z16USBH_ClassActivePv
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:530    .text._Z16USBH_ClassActivePv:0000003c $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2195   .bss.midi:00000000 midi
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:552    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:544    .text._ZN5daisy11MidiHandlerINS_16MidiUsbTransportEE13ParseCallbackEPhjPv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:756    .rodata.main.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:770    .text.startup.main:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:778    .text.startup.main:00000000 main
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:1514   .text.startup.main:0000022c $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2182   .bss.event_log:00000000 event_log
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:1545   .text.startup._GLOBAL__sub_I_hw:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:1552   .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2121   .text.startup._GLOBAL__sub_I_hw:0000009c $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2136   .init_array:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2139   .rodata.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2202   .bss.usbHost:00000000 usbHost
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2189   .bss.hw:00000000 hw
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2174   .rodata:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2179   .bss.event_log:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2185   .bss.hw:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2192   .bss.midi:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2198   .bss.usbHost:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2205   .rodata.CSWTCH.30:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s:2209   .rodata.CSWTCH.30:00000000 CSWTCH.30
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
                            .group:00000000 _ZN5daisy4FIFOINS_9MidiEventELj128EED5Ev
                            .group:00000000 _ZN5daisy11MidiHandlerINS_16MidiUsbTransportEED5Ev
 
 UNDEFINED SYMBOLS
 _ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccK3uMIv.s 			page 102
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccrCAqFa.s 			page 102
 
 
 _ZN5daisy13USBHostHandle13IsActiveClassEP17USBH_ClassTypeDef
