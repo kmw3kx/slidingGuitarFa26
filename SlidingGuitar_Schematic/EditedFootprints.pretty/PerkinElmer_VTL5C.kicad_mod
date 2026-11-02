@@ -1,0 +1,296 @@
+(footprint "PerkinElmer_VTL5C"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)")
+	(tags "vactrol")
+	(property "Reference" "U13"
+		(at 11.515 2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bff9f7a8-e0c0-40df-8a11-7af96876343b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VTL5C"
+		(at 7.5 7.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a295e28-dd11-4116-bbcd-831fd3b0116e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.qsl.net/wa1ion/vactrol/vactrol.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae494ac2-2ab1-44db-905b-87a04174461d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Low Cost Axial Vactrols"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61b7ea66-6041-4001-9494-963554c33675")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "PerkinElmer*VTL5C*")
+	(sheetname "/E-Bow Circuit5/")
+	(sheetfile "untitled.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "10d72d0e-b2dd-419a-87bc-e1051496dee0")
+	)
+	(fp_line
+		(start 0 2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aaf9ec76-b764-494d-979f-a0be35438c1d")
+	)
+	(fp_line
+		(start 1.524 0.762)
+		(end 3.556 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb0e1d7b-84fe-4f98-acf1-9819a0e050bf")
+	)
+	(fp_line
+		(start 1.524 1.778)
+		(end 3.556 1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04d6fa37-d458-4a51-9044-cb72dc50d063")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb1af762-2aa4-4272-9751-ce55b842e7be")
+	)
+	(fp_line
+		(start 2.54 1.778)
+		(end 1.524 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b097b5c3-0243-4c27-8ce8-42622b4d4c4d")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end 2.54 1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d80de5df-9151-408f-bb00-101e5bb9355f")
+	)
+	(fp_line
+		(start 3.556 0.762)
+		(end 2.54 1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31874b59-6b3f-4ffe-a2be-c7b966e287e8")
+	)
+	(fp_line
+		(start 11.938 0)
+		(end 11.938 0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "314fa76f-3c87-4b2a-a63b-6dc1184f2597")
+	)
+	(fp_line
+		(start 11.938 2.032)
+		(end 11.938 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "569dc82a-df6d-4605-ae50-9cd56cecbf3a")
+	)
+	(fp_line
+		(start 13.97 0)
+		(end 11.938 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c770cd72-f7ae-46de-8e89-07eb076704fe")
+	)
+	(fp_line
+		(start 13.97 2.54)
+		(end 11.938 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d789b7c-a8c8-4e71-b568-b2147b9d5e5b")
+	)
+	(fp_line
+		(start 15.24 0)
+		(end 13.97 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c3be8c8-503f-4f71-8f99-5d1c84f3ef95")
+	)
+	(fp_line
+		(start 15.24 2.54)
+		(end 13.97 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d21b106a-d709-4b5b-a193-8ac985415267")
+	)
+	(fp_rect
+		(start 0 -2.54)
+		(end 13.97 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "04c6646b-32a1-4dad-be1f-4f79f2706a2f")
+	)
+	(fp_rect
+		(start 11.176 0.508)
+		(end 12.7 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d7e2ca4-6bc5-49c1-83fc-50fd64ac794f")
+	)
+	(fp_text user "Vactrol"
+		(at 4.572 2.794 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1205ae77-2883-4bc9-a226-4ac24dcbdb0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.435 0 0)
+		(layer "F.Fab")
+		(uuid "9219d36c-b456-47cb-993b-3826f1f32c86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 2.54)
+		(size 1.15 1.15)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2173913043)
+		(thermal_bridge_angle 45)
+		(uuid "a56c6bb1-382e-4d7a-8578-89ee790916a6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.15 1.15)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d1e57495-116f-4042-9e5c-8cb3b216d544")
+	)
+	(pad "3" thru_hole circle
+		(at 15.24 0)
+		(size 1.15 1.15)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "725e3aad-5106-42ec-b859-6f121ad15d4e")
+	)
+	(pad "4" thru_hole circle
+		(at 15.24 2.54)
+		(size 1.15 1.15)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bac75b90-102f-4b53-8769-d796c9a96ebb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Vactrol.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,5 +1,6 @@
 #include "daisy_seed.h"
 #include "daisysp.h"
+#include "usbh_midi.h"
 
 using namespace daisy;
 using namespace daisysp;
