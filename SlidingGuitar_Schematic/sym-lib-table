@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESP32-38pin") (type "KiCad") (uri "${KIPRJMOD}/ESP32-38-Pin-KiCad-Footprint-main/ESP32-38pin.kicad_sym") (options "") (descr ""))
+)
