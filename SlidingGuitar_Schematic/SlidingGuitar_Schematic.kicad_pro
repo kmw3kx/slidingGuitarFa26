@@ -546,7 +546,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "../../CAD parts/LaserCut/VactrolBoard",
       "specctra_dsn": "",
       "vrml": ""
     },
