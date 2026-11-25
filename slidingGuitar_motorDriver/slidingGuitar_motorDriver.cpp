@@ -77,14 +77,14 @@ void Init_Hardware_Encoder_TIM2(void)
     HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
 }
 
-int_32_t GetEncoderTicks(void)
+int32_t GetEncoderTicks(void)
 {
     return (int32_t)__HAL_TIM_GET_COUNTER(&htim2);
 }
 
-int_32_t current_ticks = 0;
+int32_t current_ticks = 0;
 
-int_32_t goal_ticks = 0;
+int32_t goal_ticks = 0;
 
 int main(void){
 

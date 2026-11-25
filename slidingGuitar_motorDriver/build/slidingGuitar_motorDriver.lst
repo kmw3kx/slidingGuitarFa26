@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   34              		@ link register save eliminated.
   35              	.LBB253:
   36              	.LBI253:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 2
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 2
 
 
   37              		.file 2 "../libDaisy//src/dev/codec_ak4556.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   27:../libDaisy//src/sys/system.h ****             FREQ_400MHZ,
   28:../libDaisy//src/sys/system.h ****             FREQ_480MHZ,
   29:../libDaisy//src/sys/system.h ****         };
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 3
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 3
 
 
   30:../libDaisy//src/sys/system.h **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   84:../libDaisy//src/sys/system.h ****         } status;
   85:../libDaisy//src/sys/system.h ****         uint32_t data;
   86:../libDaisy//src/sys/system.h ****         enum class Version : uint32_t
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 4
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 4
 
 
   87:../libDaisy//src/sys/system.h ****         {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   38:../libDaisy//src/hid/usb.h ****     typedef void (*ReceiveCallback)(uint8_t* buff, uint32_t* len);
   39:../libDaisy//src/hid/usb.h **** 
   40:../libDaisy//src/hid/usb.h ****     UsbHandle() {}
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 5
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 5
 
 
   41:../libDaisy//src/hid/usb.h **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   47:../libDaisy//src/per/adc.h ****         SPEED_8CYCLES_5,
   48:../libDaisy//src/per/adc.h ****         SPEED_16CYCLES_5,
   49:../libDaisy//src/per/adc.h ****         SPEED_32CYCLES_5,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 6
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 6
 
 
   50:../libDaisy//src/per/adc.h ****         SPEED_64CYCLES_5,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  104:../libDaisy//src/per/adc.h ****         OVS_512,  /**< & */
  105:../libDaisy//src/per/adc.h ****         OVS_1024, /**< & */
  106:../libDaisy//src/per/adc.h ****         OVS_LAST, /**< & */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 7
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 7
 
 
  107:../libDaisy//src/per/adc.h ****     };
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   45:../libDaisy//src/hid/audio.h ****     enum class Result
   46:../libDaisy//src/hid/audio.h ****     {
   47:../libDaisy//src/hid/audio.h ****         OK,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 8
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 8
 
 
   48:../libDaisy//src/hid/audio.h ****         ERR,
@@ -478,13 +478,13 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   76              		.syntax unified
   77              		.thumb
   78              		.thumb_func
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 9
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 9
 
 
   79              		.fpu fpv5-d16
   81              	_ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:
   82              	.LVL1:
-  83              	.LFB3311:
+  83              	.LFB3313:
   84              		.file 7 "../libDaisy//src/util/FIFO.h"
    1:../libDaisy//src/util/FIFO.h **** #pragma once
    2:../libDaisy//src/util/FIFO.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   50:../libDaisy//src/util/FIFO.h ****     {
   51:../libDaisy//src/util/FIFO.h ****         if(!IsFull())
   52:../libDaisy//src/util/FIFO.h ****         {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 10
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 10
 
 
   53:../libDaisy//src/util/FIFO.h ****             buffer_[bufferIn_++] = elementToAdd;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  107:../libDaisy//src/util/FIFO.h ****             const auto result = buffer_[bufferOut_];
  108:../libDaisy//src/util/FIFO.h ****             bufferOut_++;
  109:../libDaisy//src/util/FIFO.h ****             if(bufferOut_ >= bufferSize_)
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 11
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 11
 
 
  110:../libDaisy//src/util/FIFO.h ****                 bufferOut_ -= bufferSize_;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  164:../libDaisy//src/util/FIFO.h ****     /** returns true, if the buffer is empty */
  165:../libDaisy//src/util/FIFO.h ****     bool IsEmpty() const { return bufferIn_ == bufferOut_; }
  166:../libDaisy//src/util/FIFO.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 12
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 12
 
 
  167:../libDaisy//src/util/FIFO.h ****     /** returns true, if the buffer is Full */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  221:../libDaisy//src/util/FIFO.h ****                 index -= bufferSize_;
  222:../libDaisy//src/util/FIFO.h ****             if(nextIndex >= bufferSize_)
  223:../libDaisy//src/util/FIFO.h ****                 nextIndex -= bufferSize_;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 13
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 13
 
 
  224:../libDaisy//src/util/FIFO.h ****         }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  278:../libDaisy//src/util/FIFO.h ****         if(index >= bufferSize_)
  279:../libDaisy//src/util/FIFO.h ****             index -= bufferSize_;
  280:../libDaisy//src/util/FIFO.h ****         return buffer_[index];
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 14
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 14
 
 
  281:../libDaisy//src/util/FIFO.h ****     }
@@ -814,7 +814,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   95              		.loc 7 298 7 view .LVU15
   96 0000 7047     		bx	lr
   97              		.cfi_endproc
-  98              	.LFE3311:
+  98              	.LFE3313:
  100              		.weak	_ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev
  101              		.thumb_set _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev,_ZN5daisy4FIFOINS_11FixedCapStrILj1
  102 0002 00BF     		.section	.text._Z11UsbCallbackPhPm,"ax",%progbits
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
    7:slidingGuitar_motorDriver.cpp **** /** Create a FIFO for receiving messages to echo out. */
    8:slidingGuitar_motorDriver.cpp **** FIFO<FixedCapStr<128>, 16> msg_fifo;
    9:slidingGuitar_motorDriver.cpp **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 15
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 15
 
 
   10:slidingGuitar_motorDriver.cpp **** /** Callback that fires whenever new data is sent from the serial port */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  147              	.LVL3:
  148              		.loc 9 17 42 view .LVU20
  149              	.LBE301:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 16
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 16
 
 
  150              	.LBE300:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   46:../libDaisy//src/util/FixedCapStr.h ****     {
   47:../libDaisy//src/util/FixedCapStr.h ****         size_          = std::min(strlen(buffer_), capacity_);
   48:../libDaisy//src/util/FixedCapStr.h ****         buffer_[size_] = 0;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 17
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 17
 
 
   49:../libDaisy//src/util/FixedCapStr.h ****     }
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  103:../libDaisy//src/util/FixedCapStr.h ****         auto to_copy = std::min(length, (capacity_ - size_));
  104:../libDaisy//src/util/FixedCapStr.h ****         Append_(str, to_copy);
  105:../libDaisy//src/util/FixedCapStr.h ****     }
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 18
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 18
 
 
  106:../libDaisy//src/util/FixedCapStr.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  160:../libDaisy//src/util/FixedCapStr.h ****         }
  161:../libDaisy//src/util/FixedCapStr.h ****         else if(alwaysIncludeSign)
  162:../libDaisy//src/util/FixedCapStr.h ****             Append('+');
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 19
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 19
 
 
  163:../libDaisy//src/util/FixedCapStr.h **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  217:../libDaisy//src/util/FixedCapStr.h ****                 continue;
  218:../libDaisy//src/util/FixedCapStr.h ****             Append(rem + '0');
  219:../libDaisy//src/util/FixedCapStr.h ****         }
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 20
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 20
 
 
  220:../libDaisy//src/util/FixedCapStr.h ****         // print decimal point
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  274:../libDaisy//src/util/FixedCapStr.h ****                 return false;
  275:../libDaisy//src/util/FixedCapStr.h ****             patternPtr--;
  276:../libDaisy//src/util/FixedCapStr.h ****             ptr--;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 21
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 21
 
 
  277:../libDaisy//src/util/FixedCapStr.h ****         }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  331:../libDaisy//src/util/FixedCapStr.h ****             ptr++;
  332:../libDaisy//src/util/FixedCapStr.h ****         }
  333:../libDaisy//src/util/FixedCapStr.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 22
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 22
 
 
  334:../libDaisy//src/util/FixedCapStr.h ****         return *rhs == *ptr; // both strings ended at the same '0'?
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  388:../libDaisy//src/util/FixedCapStr.h ****             result++;
  389:../libDaisy//src/util/FixedCapStr.h ****         return result;
  390:../libDaisy//src/util/FixedCapStr.h ****     }
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 23
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 23
 
 
  391:../libDaisy//src/util/FixedCapStr.h **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  445:../libDaisy//src/util/FixedCapStr.h ****             case 'd': return 'D';
  446:../libDaisy//src/util/FixedCapStr.h ****             case 'e': return 'E';
  447:../libDaisy//src/util/FixedCapStr.h ****             case 'f': return 'F';
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 24
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 24
 
 
  448:../libDaisy//src/util/FixedCapStr.h ****             case 'g': return 'G';
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  502:../libDaisy//src/util/FixedCapStr.h ****     }
  503:../libDaisy//src/util/FixedCapStr.h **** 
  504:../libDaisy//src/util/FixedCapStr.h ****     template <size_t otherSize>
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 25
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 25
 
 
  505:../libDaisy//src/util/FixedCapStr.h ****     constexpr FixedCapStr(const FixedCapStr<otherSize>& str) noexcept
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  205              	.LVL7:
  206              	.LBB308:
  207              	.LBI308:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 26
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 26
 
 
  208              		.file 10 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_algoba
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   54:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****  */
   55:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h **** 
   56:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h **** #ifndef _STL_ALGOBASE_H
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 27
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 27
 
 
   57:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h **** #define _STL_ALGOBASE_H 1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  111:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****   // when it's safe, i.e., the value_types are equal.
  112:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****   template<bool _BoolType>
  113:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****     struct __iter_swap
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 28
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 28
 
 
  114:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****     {
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  168:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****       __glibcxx_function_requires(_ConvertibleConcept<_ValueType2,
  169:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h **** 				  _ValueType1>)
  170:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 29
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 29
 
 
  171:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****       typedef typename iterator_traits<_ForwardIterator1>::reference
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  225:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****    *  preprocessor macro.
  226:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****   */
  227:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****   template<typename _Tp>
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 30
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 30
 
 
  228:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_algobase.h ****     _GLIBCXX14_CONSTEXPR
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  248              		.loc 7 173 41 view .LVU43
  249 0038 D0E90232 		ldrd	r3, r2, [r0, #8]
  250              	.LVL10:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 31
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 31
 
 
  174:../libDaisy//src/util/FIFO.h ****             numElements += bufferSize_;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  289              	.LBB338:
  290              	.LBB336:
  291              	.LBB334:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 32
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 32
 
 
  292              	.LBB333:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  332              		.loc 10 230 5 view .LVU64
  333              	.LBE327:
  334              	.LBE326:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 33
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 33
 
 
  335              	.LBE325:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  378              		.loc 9 27 17 view .LVU75
  379 008c 56F80C50 		ldr	r5, [r6, ip]
  380              	.LVL25:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 34
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 34
 
 
  381              	.L13:
@@ -2022,73 +2022,401 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  412 00a4 00000000 		.word	.LANCHOR0
  413              		.cfi_endproc
  414              	.LFE3249:
- 416              		.section	.rodata.main.str1.4,"aMS",%progbits,1
- 417              		.align	2
- 418              	.LC0:
- 419 0000 48656C6C 		.ascii	"Hello World!\000"
- 419      6F20576F 
- 419      726C6421 
- 419      00
- 420 000d 000000   		.align	2
- 421              	.LC1:
- 422 0010 53656E64 		.ascii	"Send messages in your Serial Monitor!\000"
- 422      206D6573 
- 422      73616765 
- 422      7320696E 
- 422      20796F75 
- 423 0036 0000     		.align	2
- 424              	.LC2:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 35
-
-
- 425 0038 52656365 		.ascii	"Received Message: \000"
- 425      69766564 
- 425      204D6573 
- 425      73616765 
- 425      3A2000
- 426              		.section	.text.startup.main,"ax",%progbits
- 427              		.align	1
- 428              		.p2align 2,,3
- 429              		.global	main
- 430              		.syntax unified
- 431              		.thumb
- 432              		.thumb_func
- 433              		.fpu fpv5-d16
- 435              	main:
- 436              	.LFB3257:
+ 416              		.section	.text._Z26Init_Hardware_Encoder_TIM2v,"ax",%progbits
+ 417              		.align	1
+ 418              		.p2align 2,,3
+ 419              		.global	_Z26Init_Hardware_Encoder_TIM2v
+ 420              		.syntax unified
+ 421              		.thumb
+ 422              		.thumb_func
+ 423              		.fpu fpv5-d16
+ 425              	_Z26Init_Hardware_Encoder_TIM2v:
+ 426              	.LFB3257:
   27:slidingGuitar_motorDriver.cpp **** // end serial read
   28:slidingGuitar_motorDriver.cpp **** 
-  29:slidingGuitar_motorDriver.cpp **** int main(void){
- 437              		.loc 8 29 15 is_stmt 1 view -0
- 438              		.cfi_startproc
- 439              		@ Volatile: function does not return.
- 440              		@ args = 0, pretend = 0, frame = 288
- 441              		@ frame_needed = 0, uses_anonymous_args = 0
+  29:slidingGuitar_motorDriver.cpp **** #include "stm32h7xx_hal.h"
   30:slidingGuitar_motorDriver.cpp **** 
-  31:slidingGuitar_motorDriver.cpp ****     // Initialize the Daisy Seed
-  32:slidingGuitar_motorDriver.cpp ****     hw.Init();
- 442              		.loc 8 32 5 view .LVU85
-  29:slidingGuitar_motorDriver.cpp **** 
- 443              		.loc 8 29 15 is_stmt 0 view .LVU86
- 444 0000 80B5     		push	{r7, lr}
- 445              		.cfi_def_cfa_offset 8
- 446              		.cfi_offset 7, -8
- 447              		.cfi_offset 14, -4
- 448              		.loc 8 32 12 view .LVU87
- 449 0002 0021     		movs	r1, #0
-  29:slidingGuitar_motorDriver.cpp **** 
- 450              		.loc 8 29 15 view .LVU88
- 451 0004 C8B0     		sub	sp, sp, #288
- 452              		.cfi_def_cfa_offset 296
- 453              		.loc 8 32 12 view .LVU89
- 454 0006 2D48     		ldr	r0, .L48
- 455 0008 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
- 456              	.LVL29:
-  33:slidingGuitar_motorDriver.cpp ****     // Start the log, and wait for connection
-  34:slidingGuitar_motorDriver.cpp ****     hw.StartLog(true);
- 457              		.loc 8 34 5 is_stmt 1 view .LVU90
- 458              	.LBB398:
- 459              	.LBI398:
+  31:slidingGuitar_motorDriver.cpp **** TIM_HandleTypeDef htim2;
+  32:slidingGuitar_motorDriver.cpp **** 
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 35
+
+
+  33:slidingGuitar_motorDriver.cpp **** // --- Physical Conversion Constants ---
+  34:slidingGuitar_motorDriver.cpp **** // CQRobot 25D motor: 48 CPR on motor shaft * 4.4 gear ratio ≈ 211.2 counts/rev on output shaft
+  35:slidingGuitar_motorDriver.cpp **** // 20T GT2 timing pulley (2 mm pitch) = 40 mm (0.040 m) linear travel per output revolution
+  36:slidingGuitar_motorDriver.cpp **** const float METERS_PER_TICK = 0.040f / (48.0f * 4.4f); // ~0.0001894 m/tick (0.1894 mm/tick)
+  37:slidingGuitar_motorDriver.cpp **** 
+  38:slidingGuitar_motorDriver.cpp **** // =================================================================
+  39:slidingGuitar_motorDriver.cpp **** // Hardware Timer 2 Initialization (Quadrature Decoder Mode)
+  40:slidingGuitar_motorDriver.cpp **** // =================================================================
+  41:slidingGuitar_motorDriver.cpp **** void Init_Hardware_Encoder_TIM2(void)
+  42:slidingGuitar_motorDriver.cpp **** {
+ 427              		.loc 8 42 1 is_stmt 1 view -0
+ 428              		.cfi_startproc
+ 429              		@ args = 0, pretend = 0, frame = 64
+ 430              		@ frame_needed = 0, uses_anonymous_args = 0
+  43:slidingGuitar_motorDriver.cpp ****     // 1. Enable peripheral clocks for TIM2 and GPIOA
+  44:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_TIM2_CLK_ENABLE();
+ 431              		.loc 8 44 5 view .LVU85
+ 432              	.LBB341:
+ 433              		.loc 8 44 5 view .LVU86
+ 434              		.loc 8 44 5 view .LVU87
+ 435 0000 214B     		ldr	r3, .L38
+ 436              	.LBE341:
+  45:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+  46:slidingGuitar_motorDriver.cpp **** 
+  47:slidingGuitar_motorDriver.cpp ****     // 2. Configure Pin D24 (PA0) and Pin D25 (PA1) as Alternate Function TIM2
+  48:slidingGuitar_motorDriver.cpp ****     GPIO_InitTypeDef GPIO_InitStruct = {0};
+  49:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pin       = GPIO_PIN_0 | GPIO_PIN_1;
+  50:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+ 437              		.loc 8 50 31 is_stmt 0 view .LVU88
+ 438 0002 0221     		movs	r1, #2
+  51:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pull      = GPIO_PULLUP;             // Enable internal pull-ups
+  52:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_HIGH;
+  53:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Alternate = GPIO_AF1_TIM2;           // Maps PA0/PA1 to TIM2
+  54:slidingGuitar_motorDriver.cpp ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 439              		.loc 8 54 18 view .LVU89
+ 440 0004 2148     		ldr	r0, .L38+4
+ 441              	.LBB342:
+  44:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+ 442              		.loc 8 44 5 view .LVU90
+ 443 0006 D3F8E820 		ldr	r2, [r3, #232]
+ 444              	.LBE342:
+  42:slidingGuitar_motorDriver.cpp ****     // 1. Enable peripheral clocks for TIM2 and GPIOA
+ 445              		.loc 8 42 1 view .LVU91
+ 446 000a 30B5     		push	{r4, r5, lr}
+ 447              		.cfi_def_cfa_offset 12
+ 448              		.cfi_offset 4, -12
+ 449              		.cfi_offset 5, -8
+ 450              		.cfi_offset 14, -4
+  51:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pull      = GPIO_PULLUP;             // Enable internal pull-ups
+ 451              		.loc 8 51 31 view .LVU92
+ 452 000c 0125     		movs	r5, #1
+  42:slidingGuitar_motorDriver.cpp ****     // 1. Enable peripheral clocks for TIM2 and GPIOA
+ 453              		.loc 8 42 1 view .LVU93
+ 454 000e 91B0     		sub	sp, sp, #68
+ 455              		.cfi_def_cfa_offset 80
+  49:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+ 456              		.loc 8 49 31 view .LVU94
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 36
+
+
+ 457 0010 0324     		movs	r4, #3
+ 458              	.LBB343:
+  44:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+ 459              		.loc 8 44 5 view .LVU95
+ 460 0012 2A43     		orrs	r2, r2, r5
+ 461 0014 C3F8E820 		str	r2, [r3, #232]
+  44:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+ 462              		.loc 8 44 5 is_stmt 1 view .LVU96
+ 463 0018 D3F8E820 		ldr	r2, [r3, #232]
+ 464 001c 2A40     		ands	r2, r2, r5
+ 465 001e 0092     		str	r2, [sp]
+  44:slidingGuitar_motorDriver.cpp ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+ 466              		.loc 8 44 5 view .LVU97
+ 467 0020 009A     		ldr	r2, [sp]
+ 468              	.LBE343:
+  45:slidingGuitar_motorDriver.cpp **** 
+ 469              		.loc 8 45 5 view .LVU98
+ 470              	.LBB344:
+  45:slidingGuitar_motorDriver.cpp **** 
+ 471              		.loc 8 45 5 view .LVU99
+  45:slidingGuitar_motorDriver.cpp **** 
+ 472              		.loc 8 45 5 view .LVU100
+ 473 0022 D3F8E020 		ldr	r2, [r3, #224]
+ 474 0026 2A43     		orrs	r2, r2, r5
+ 475 0028 C3F8E020 		str	r2, [r3, #224]
+  45:slidingGuitar_motorDriver.cpp **** 
+ 476              		.loc 8 45 5 view .LVU101
+ 477 002c D3F8E030 		ldr	r3, [r3, #224]
+ 478              	.LBE344:
+  53:slidingGuitar_motorDriver.cpp ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 479              		.loc 8 53 31 is_stmt 0 view .LVU102
+ 480 0030 0695     		str	r5, [sp, #24]
+ 481              	.LBB345:
+  45:slidingGuitar_motorDriver.cpp **** 
+ 482              		.loc 8 45 5 view .LVU103
+ 483 0032 2B40     		ands	r3, r3, r5
+ 484              	.LBE345:
+  50:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pull      = GPIO_PULLUP;             // Enable internal pull-ups
+ 485              		.loc 8 50 31 view .LVU104
+ 486 0034 CDE90241 		strd	r4, r1, [sp, #8]
+  52:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Alternate = GPIO_AF1_TIM2;           // Maps PA0/PA1 to TIM2
+ 487              		.loc 8 52 31 view .LVU105
+ 488 0038 CDE90451 		strd	r5, r1, [sp, #16]
+ 489              	.LBB346:
+  45:slidingGuitar_motorDriver.cpp **** 
+ 490              		.loc 8 45 5 view .LVU106
+ 491 003c 0193     		str	r3, [sp, #4]
+  45:slidingGuitar_motorDriver.cpp **** 
+ 492              		.loc 8 45 5 is_stmt 1 view .LVU107
+ 493              	.LBE346:
+ 494              		.loc 8 54 18 is_stmt 0 view .LVU108
+ 495 003e 02A9     		add	r1, sp, #8
+ 496              	.LBB347:
+  45:slidingGuitar_motorDriver.cpp **** 
+ 497              		.loc 8 45 5 view .LVU109
+ 498 0040 019B     		ldr	r3, [sp, #4]
+ 499              	.LBE347:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 37
+
+
+  48:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pin       = GPIO_PIN_0 | GPIO_PIN_1;
+ 500              		.loc 8 48 5 is_stmt 1 view .LVU110
+  49:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+ 501              		.loc 8 49 5 view .LVU111
+  50:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Pull      = GPIO_PULLUP;             // Enable internal pull-ups
+ 502              		.loc 8 50 5 view .LVU112
+  51:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_HIGH;
+ 503              		.loc 8 51 5 view .LVU113
+  52:slidingGuitar_motorDriver.cpp ****     GPIO_InitStruct.Alternate = GPIO_AF1_TIM2;           // Maps PA0/PA1 to TIM2
+ 504              		.loc 8 52 5 view .LVU114
+  53:slidingGuitar_motorDriver.cpp ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 505              		.loc 8 53 5 view .LVU115
+ 506              		.loc 8 54 5 view .LVU116
+ 507              		.loc 8 54 18 is_stmt 0 view .LVU117
+ 508 0042 FFF7FEFF 		bl	HAL_GPIO_Init
+ 509              	.LVL29:
+  55:slidingGuitar_motorDriver.cpp **** 
+  56:slidingGuitar_motorDriver.cpp ****     // 3. Configure TIM2 in 4x Hardware Quadrature Decoder Mode
+  57:slidingGuitar_motorDriver.cpp ****     TIM_Encoder_InitTypeDef sConfig = {0};
+ 510              		.loc 8 57 5 is_stmt 1 view .LVU118
+ 511              		.loc 8 57 29 is_stmt 0 view .LVU119
+ 512 0046 0023     		movs	r3, #0
+  58:slidingGuitar_motorDriver.cpp ****     htim2.Instance               = TIM2;
+  59:slidingGuitar_motorDriver.cpp ****     htim2.Init.Prescaler         = 0;
+  60:slidingGuitar_motorDriver.cpp ****     htim2.Init.CounterMode       = TIM_COUNTERMODE_UP;
+  61:slidingGuitar_motorDriver.cpp ****     htim2.Init.Period            = 0xFFFFFFFF;          // Full 32-bit counter range
+  62:slidingGuitar_motorDriver.cpp ****     htim2.Init.ClockDivision     = TIM_CLOCKDIVISION_DIV1;
+  63:slidingGuitar_motorDriver.cpp ****     htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  64:slidingGuitar_motorDriver.cpp **** 
+  65:slidingGuitar_motorDriver.cpp ****     sConfig.EncoderMode  = TIM_ENCODERMODE_TI12;        // 4x counting on both edges
+ 513              		.loc 8 65 26 view .LVU120
+ 514 0048 0794     		str	r4, [sp, #28]
+  58:slidingGuitar_motorDriver.cpp ****     htim2.Instance               = TIM2;
+ 515              		.loc 8 58 34 view .LVU121
+ 516 004a 4FF08041 		mov	r1, #1073741824
+ 517 004e 104C     		ldr	r4, .L38+8
+  66:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Polarity  = TIM_ICPOLARITY_RISING;
+  67:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
+  68:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+  69:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Filter    = 4;                           // Hardware digital noise filter
+ 518              		.loc 8 69 26 view .LVU122
+ 519 0050 0422     		movs	r2, #4
+  57:slidingGuitar_motorDriver.cpp ****     htim2.Instance               = TIM2;
+ 520              		.loc 8 57 29 view .LVU123
+ 521 0052 0893     		str	r3, [sp, #32]
+  70:slidingGuitar_motorDriver.cpp **** 
+  71:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Polarity  = TIM_ICPOLARITY_RISING;
+  72:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Selection = TIM_ICSELECTION_DIRECTTI;
+  73:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+  74:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Filter    = 4;
+  75:slidingGuitar_motorDriver.cpp **** 
+  76:slidingGuitar_motorDriver.cpp ****     HAL_TIM_Encoder_Init(&htim2, &sConfig);
+ 522              		.loc 8 76 25 view .LVU124
+ 523 0054 2046     		mov	r0, r4
+  60:slidingGuitar_motorDriver.cpp ****     htim2.Init.Period            = 0xFFFFFFFF;          // Full 32-bit counter range
+ 524              		.loc 8 60 34 view .LVU125
+ 525 0056 A360     		str	r3, [r4, #8]
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 38
+
+
+  63:slidingGuitar_motorDriver.cpp **** 
+ 526              		.loc 8 63 34 view .LVU126
+ 527 0058 A361     		str	r3, [r4, #24]
+  69:slidingGuitar_motorDriver.cpp **** 
+ 528              		.loc 8 69 26 view .LVU127
+ 529 005a 0B92     		str	r2, [sp, #44]
+  74:slidingGuitar_motorDriver.cpp **** 
+ 530              		.loc 8 74 26 view .LVU128
+ 531 005c 0F92     		str	r2, [sp, #60]
+  57:slidingGuitar_motorDriver.cpp ****     htim2.Instance               = TIM2;
+ 532              		.loc 8 57 29 view .LVU129
+ 533 005e 0A93     		str	r3, [sp, #40]
+ 534 0060 0C93     		str	r3, [sp, #48]
+ 535 0062 0E93     		str	r3, [sp, #56]
+  58:slidingGuitar_motorDriver.cpp ****     htim2.Init.Prescaler         = 0;
+ 536              		.loc 8 58 5 is_stmt 1 view .LVU130
+  59:slidingGuitar_motorDriver.cpp ****     htim2.Init.CounterMode       = TIM_COUNTERMODE_UP;
+ 537              		.loc 8 59 5 view .LVU131
+  60:slidingGuitar_motorDriver.cpp ****     htim2.Init.Period            = 0xFFFFFFFF;          // Full 32-bit counter range
+ 538              		.loc 8 60 5 view .LVU132
+  61:slidingGuitar_motorDriver.cpp ****     htim2.Init.ClockDivision     = TIM_CLOCKDIVISION_DIV1;
+ 539              		.loc 8 61 5 view .LVU133
+  62:slidingGuitar_motorDriver.cpp ****     htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+ 540              		.loc 8 62 5 view .LVU134
+  63:slidingGuitar_motorDriver.cpp **** 
+ 541              		.loc 8 63 5 view .LVU135
+  65:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Polarity  = TIM_ICPOLARITY_RISING;
+ 542              		.loc 8 65 5 view .LVU136
+  66:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
+ 543              		.loc 8 66 5 view .LVU137
+  67:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+ 544              		.loc 8 67 5 view .LVU138
+  68:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Filter    = 4;                           // Hardware digital noise filter
+ 545              		.loc 8 68 5 view .LVU139
+  69:slidingGuitar_motorDriver.cpp **** 
+ 546              		.loc 8 69 5 view .LVU140
+  71:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Selection = TIM_ICSELECTION_DIRECTTI;
+ 547              		.loc 8 71 5 view .LVU141
+  72:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+ 548              		.loc 8 72 5 view .LVU142
+  73:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Filter    = 4;
+ 549              		.loc 8 73 5 view .LVU143
+  74:slidingGuitar_motorDriver.cpp **** 
+ 550              		.loc 8 74 5 view .LVU144
+ 551              		.loc 8 76 5 view .LVU145
+  67:slidingGuitar_motorDriver.cpp ****     sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+ 552              		.loc 8 67 26 is_stmt 0 view .LVU146
+ 553 0064 0995     		str	r5, [sp, #36]
+  72:slidingGuitar_motorDriver.cpp ****     sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+ 554              		.loc 8 72 26 view .LVU147
+ 555 0066 0D95     		str	r5, [sp, #52]
+  58:slidingGuitar_motorDriver.cpp ****     htim2.Init.Prescaler         = 0;
+ 556              		.loc 8 58 34 view .LVU148
+ 557 0068 C4E90013 		strd	r1, r3, [r4]
+  61:slidingGuitar_motorDriver.cpp ****     htim2.Init.ClockDivision     = TIM_CLOCKDIVISION_DIV1;
+ 558              		.loc 8 61 34 view .LVU149
+ 559 006c 4FF0FF31 		mov	r1, #-1
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 39
+
+
+ 560 0070 C4E90313 		strd	r1, r3, [r4, #12]
+ 561              		.loc 8 76 25 view .LVU150
+ 562 0074 07A9     		add	r1, sp, #28
+ 563 0076 FFF7FEFF 		bl	HAL_TIM_Encoder_Init
+ 564              	.LVL30:
+  77:slidingGuitar_motorDriver.cpp ****     HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
+ 565              		.loc 8 77 5 is_stmt 1 view .LVU151
+ 566              		.loc 8 77 26 is_stmt 0 view .LVU152
+ 567 007a 3C21     		movs	r1, #60
+ 568 007c 2046     		mov	r0, r4
+ 569 007e FFF7FEFF 		bl	HAL_TIM_Encoder_Start
+ 570              	.LVL31:
+  78:slidingGuitar_motorDriver.cpp **** }
+ 571              		.loc 8 78 1 view .LVU153
+ 572 0082 11B0     		add	sp, sp, #68
+ 573              		.cfi_def_cfa_offset 12
+ 574              		@ sp needed
+ 575 0084 30BD     		pop	{r4, r5, pc}
+ 576              	.L39:
+ 577 0086 00BF     		.align	2
+ 578              	.L38:
+ 579 0088 00440258 		.word	1476543488
+ 580 008c 00000258 		.word	1476526080
+ 581 0090 00000000 		.word	.LANCHOR1
+ 582              		.cfi_endproc
+ 583              	.LFE3257:
+ 585              		.section	.text._Z15GetEncoderTicksv,"ax",%progbits
+ 586              		.align	1
+ 587              		.p2align 2,,3
+ 588              		.global	_Z15GetEncoderTicksv
+ 589              		.syntax unified
+ 590              		.thumb
+ 591              		.thumb_func
+ 592              		.fpu fpv5-d16
+ 594              	_Z15GetEncoderTicksv:
+ 595              	.LFB3258:
+  79:slidingGuitar_motorDriver.cpp **** 
+  80:slidingGuitar_motorDriver.cpp **** int32_t GetEncoderTicks(void)
+  81:slidingGuitar_motorDriver.cpp **** {
+ 596              		.loc 8 81 1 is_stmt 1 view -0
+ 597              		.cfi_startproc
+ 598              		@ args = 0, pretend = 0, frame = 0
+ 599              		@ frame_needed = 0, uses_anonymous_args = 0
+ 600              		@ link register save eliminated.
+  82:slidingGuitar_motorDriver.cpp ****     return (int32_t)__HAL_TIM_GET_COUNTER(&htim2);
+ 601              		.loc 8 82 5 view .LVU155
+ 602              		.loc 8 82 21 is_stmt 0 view .LVU156
+ 603 0000 014B     		ldr	r3, .L41
+ 604 0002 1B68     		ldr	r3, [r3]
+ 605 0004 586A     		ldr	r0, [r3, #36]
+  83:slidingGuitar_motorDriver.cpp **** }
+ 606              		.loc 8 83 1 view .LVU157
+ 607 0006 7047     		bx	lr
+ 608              	.L42:
+ 609              		.align	2
+ 610              	.L41:
+ 611 0008 00000000 		.word	.LANCHOR1
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 40
+
+
+ 612              		.cfi_endproc
+ 613              	.LFE3258:
+ 615              		.section	.rodata.main.str1.4,"aMS",%progbits,1
+ 616              		.align	2
+ 617              	.LC0:
+ 618 0000 48656C6C 		.ascii	"Hello World!\000"
+ 618      6F20576F 
+ 618      726C6421 
+ 618      00
+ 619 000d 000000   		.align	2
+ 620              	.LC1:
+ 621 0010 53656E64 		.ascii	"Send messages in your Serial Monitor!\000"
+ 621      206D6573 
+ 621      73616765 
+ 621      7320696E 
+ 621      20796F75 
+ 622 0036 0000     		.align	2
+ 623              	.LC2:
+ 624 0038 52656365 		.ascii	"Received Message: \000"
+ 624      69766564 
+ 624      204D6573 
+ 624      73616765 
+ 624      3A2000
+ 625              		.section	.text.startup.main,"ax",%progbits
+ 626              		.align	1
+ 627              		.p2align 2,,3
+ 628              		.global	main
+ 629              		.syntax unified
+ 630              		.thumb
+ 631              		.thumb_func
+ 632              		.fpu fpv5-d16
+ 634              	main:
+ 635              	.LFB3259:
+  84:slidingGuitar_motorDriver.cpp **** 
+  85:slidingGuitar_motorDriver.cpp **** int32_t current_ticks = 0;
+  86:slidingGuitar_motorDriver.cpp **** 
+  87:slidingGuitar_motorDriver.cpp **** int32_t goal_ticks = 0;
+  88:slidingGuitar_motorDriver.cpp **** 
+  89:slidingGuitar_motorDriver.cpp **** int main(void){
+ 636              		.loc 8 89 15 is_stmt 1 view -0
+ 637              		.cfi_startproc
+ 638              		@ args = 0, pretend = 0, frame = 288
+ 639              		@ frame_needed = 0, uses_anonymous_args = 0
+  90:slidingGuitar_motorDriver.cpp **** 
+  91:slidingGuitar_motorDriver.cpp ****     // Initialize the Daisy Seed
+  92:slidingGuitar_motorDriver.cpp ****     hw.Init();
+ 640              		.loc 8 92 5 view .LVU159
+  89:slidingGuitar_motorDriver.cpp **** 
+ 641              		.loc 8 89 15 is_stmt 0 view .LVU160
+ 642 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 643              		.cfi_def_cfa_offset 28
+ 644              		.cfi_offset 4, -28
+ 645              		.cfi_offset 5, -24
+ 646              		.cfi_offset 6, -20
+ 647              		.cfi_offset 7, -16
+ 648              		.cfi_offset 8, -12
+ 649              		.cfi_offset 9, -8
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 41
+
+
+ 650              		.cfi_offset 14, -4
+ 651              		.loc 8 92 12 view .LVU161
+ 652 0004 0021     		movs	r1, #0
+  89:slidingGuitar_motorDriver.cpp **** 
+ 653              		.loc 8 89 15 view .LVU162
+ 654 0006 C9B0     		sub	sp, sp, #292
+ 655              		.cfi_def_cfa_offset 320
+ 656              		.loc 8 92 12 view .LVU163
+ 657 0008 3148     		ldr	r0, .L57
+ 658 000a FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
+ 659              	.LVL32:
+  93:slidingGuitar_motorDriver.cpp ****     // Start the log, and wait for connection
+  94:slidingGuitar_motorDriver.cpp ****     hw.StartLog(true); // set to false if running without a USB connection (e.g., standalone)
+ 660              		.loc 8 94 5 is_stmt 1 view .LVU164
+ 661              	.LBB405:
+ 662              	.LBI405:
   23:../libDaisy//src/daisy_seed.h **** 
   24:../libDaisy//src/daisy_seed.h ****     /** This function used to provide a pre-initialization configuraiton
   25:../libDaisy//src/daisy_seed.h ****      *  it has since been deprecated, and does nothing.
@@ -2098,9 +2426,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   29:../libDaisy//src/daisy_seed.h ****     /**
   30:../libDaisy//src/daisy_seed.h ****     Initializes the Daisy Seed and the following peripherals:
   31:../libDaisy//src/daisy_seed.h ****     SDRAM, QSPI, 24-bit 48kHz Audio via AK4556, Internal USB,
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 36
-
-
   32:../libDaisy//src/daisy_seed.h ****     as well as the built-in LED and Testpoint.
   33:../libDaisy//src/daisy_seed.h **** 
   34:../libDaisy//src/daisy_seed.h ****     ADCs, DACs, and other special peripherals (such as I2C, SPI, etc.)
@@ -2133,6 +2458,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   61:../libDaisy//src/daisy_seed.h ****     void StartAudio(AudioHandle::InterleavingAudioCallback cb);
   62:../libDaisy//src/daisy_seed.h **** 
   63:../libDaisy//src/daisy_seed.h ****     /** Begins the audio for the seeds builtin audio.
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 42
+
+
   64:../libDaisy//src/daisy_seed.h ****     the specified callback will get called whenever
   65:../libDaisy//src/daisy_seed.h ****     new data is ready to be prepared.
   66:../libDaisy//src/daisy_seed.h ****     This will use the newer non-interleaved callback.
@@ -2158,9 +2486,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   86:../libDaisy//src/daisy_seed.h ****     /** Returns the audio sample rate in Hz as a floating point number.
   87:../libDaisy//src/daisy_seed.h ****      */
   88:../libDaisy//src/daisy_seed.h ****     float AudioSampleRate();
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 37
-
-
   89:../libDaisy//src/daisy_seed.h **** 
   90:../libDaisy//src/daisy_seed.h ****     /** Sets the number of samples processed per channel by the audio callback.
   91:../libDaisy//src/daisy_seed.h ****      */
@@ -2193,6 +2518,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  118:../libDaisy//src/daisy_seed.h ****     static void Print(const char* format, VA... va)
  119:../libDaisy//src/daisy_seed.h ****     {
  120:../libDaisy//src/daisy_seed.h ****         Log::Print(format, va...);
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 43
+
+
  121:../libDaisy//src/daisy_seed.h ****     }
  122:../libDaisy//src/daisy_seed.h **** 
  123:../libDaisy//src/daisy_seed.h ****     /** Print formatted debug log message with automatic line termination
@@ -2206,527 +2534,540 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  131:../libDaisy//src/daisy_seed.h ****     /** Start the logging session. Optionally wait for terminal connection before proceeding.
  132:../libDaisy//src/daisy_seed.h ****     */
  133:../libDaisy//src/daisy_seed.h ****     static void StartLog(bool wait_for_pc = false)
- 460              		.loc 1 133 17 view .LVU91
- 461              	.LBB399:
+ 663              		.loc 1 133 17 view .LVU165
+ 664              	.LBB406:
  134:../libDaisy//src/daisy_seed.h ****     {
  135:../libDaisy//src/daisy_seed.h ****         Log::StartLog(wait_for_pc);
- 462              		.loc 1 135 9 view .LVU92
- 463              		.loc 1 135 22 is_stmt 0 view .LVU93
- 464 000c 0120     		movs	r0, #1
- 465 000e FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
- 466              	.LVL30:
- 467              		.loc 1 135 22 view .LVU94
- 468              	.LBE399:
- 469              	.LBE398:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 38
-
-
-  35:slidingGuitar_motorDriver.cpp **** 
-  36:slidingGuitar_motorDriver.cpp ****     // Print "Hello World" to the Serial Monitor
-  37:slidingGuitar_motorDriver.cpp ****     hw.PrintLine("Hello World!");
- 470              		.loc 8 37 5 is_stmt 1 view .LVU95
- 471              	.LBB400:
- 472              	.LBI400:
+ 665              		.loc 1 135 9 view .LVU166
+ 666              		.loc 1 135 22 is_stmt 0 view .LVU167
+ 667 000e 0120     		movs	r0, #1
+ 668 0010 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
+ 669              	.LVL33:
+ 670              		.loc 1 135 22 view .LVU168
+ 671              	.LBE406:
+ 672              	.LBE405:
+  95:slidingGuitar_motorDriver.cpp **** 
+  96:slidingGuitar_motorDriver.cpp ****     // Print "Hello World" to the Serial Monitor
+  97:slidingGuitar_motorDriver.cpp ****     hw.PrintLine("Hello World!");
+ 673              		.loc 8 97 5 is_stmt 1 view .LVU169
+ 674              	.LBB407:
+ 675              	.LBI407:
  126:../libDaisy//src/daisy_seed.h ****     {
- 473              		.loc 1 126 17 view .LVU96
- 474              	.LBB401:
+ 676              		.loc 1 126 17 view .LVU170
+ 677              	.LBB408:
  128:../libDaisy//src/daisy_seed.h ****     }
- 475              		.loc 1 128 23 is_stmt 0 view .LVU97
- 476 0012 2B48     		ldr	r0, .L48+4
- 477 0014 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 478              	.LVL31:
+ 678              		.loc 1 128 23 is_stmt 0 view .LVU171
+ 679 0014 2F48     		ldr	r0, .L57+4
+ 680 0016 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
+ 681              	.LVL34:
  128:../libDaisy//src/daisy_seed.h ****     }
- 479              		.loc 1 128 23 view .LVU98
- 480              	.LBE401:
- 481              	.LBE400:
-  38:slidingGuitar_motorDriver.cpp **** 
-  39:slidingGuitar_motorDriver.cpp **** 	// Set USB callback
-  40:slidingGuitar_motorDriver.cpp ****     hw.usb_handle.SetReceiveCallback(UsbCallback,
- 482              		.loc 8 40 5 is_stmt 1 view .LVU99
- 483              		.loc 8 40 37 is_stmt 0 view .LVU100
- 484 0018 2A48     		ldr	r0, .L48+8
- 485 001a 0022     		movs	r2, #0
- 486 001c 2A49     		ldr	r1, .L48+12
- 487 001e FFF7FEFF 		bl	_ZN5daisy9UsbHandle18SetReceiveCallbackEPFvPhPmENS0_9UsbPeriphE
- 488              	.LVL32:
-  41:slidingGuitar_motorDriver.cpp ****                                      UsbHandle::UsbPeriph::FS_INTERNAL);
-  42:slidingGuitar_motorDriver.cpp **** 
-  43:slidingGuitar_motorDriver.cpp ****     /** Print an initial message once the connection occurs */
-  44:slidingGuitar_motorDriver.cpp ****     hw.PrintLine("Send messages in your Serial Monitor!");
- 489              		.loc 8 44 5 is_stmt 1 view .LVU101
- 490              	.LBB402:
- 491              	.LBI402:
+ 682              		.loc 1 128 23 view .LVU172
+ 683              	.LBE408:
+ 684              	.LBE407:
+  98:slidingGuitar_motorDriver.cpp **** 
+  99:slidingGuitar_motorDriver.cpp **** 	// Set USB callback
+ 100:slidingGuitar_motorDriver.cpp ****     hw.usb_handle.SetReceiveCallback(UsbCallback,
+ 685              		.loc 8 100 5 is_stmt 1 view .LVU173
+ 686              		.loc 8 100 37 is_stmt 0 view .LVU174
+ 687 001a 2F48     		ldr	r0, .L57+8
+ 688 001c 0022     		movs	r2, #0
+ 689 001e 2F49     		ldr	r1, .L57+12
+ 690 0020 FFF7FEFF 		bl	_ZN5daisy9UsbHandle18SetReceiveCallbackEPFvPhPmENS0_9UsbPeriphE
+ 691              	.LVL35:
+ 101:slidingGuitar_motorDriver.cpp ****                                      UsbHandle::UsbPeriph::FS_INTERNAL);
+ 102:slidingGuitar_motorDriver.cpp **** 
+ 103:slidingGuitar_motorDriver.cpp ****     /** Print an initial message once the connection occurs */
+ 104:slidingGuitar_motorDriver.cpp ****     hw.PrintLine("Send messages in your Serial Monitor!");
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 44
+
+
+ 692              		.loc 8 104 5 is_stmt 1 view .LVU175
+ 693              	.LBB409:
+ 694              	.LBI409:
  126:../libDaisy//src/daisy_seed.h ****     {
- 492              		.loc 1 126 17 view .LVU102
- 493              	.LBB403:
+ 695              		.loc 1 126 17 view .LVU176
+ 696              	.LBB410:
  128:../libDaisy//src/daisy_seed.h ****     }
- 494              		.loc 1 128 23 is_stmt 0 view .LVU103
- 495 0022 2A48     		ldr	r0, .L48+16
- 496 0024 2A4D     		ldr	r5, .L48+20
- 497 0026 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 498              	.LVL33:
- 499              	.L37:
+ 697              		.loc 1 128 23 is_stmt 0 view .LVU177
+ 698 0024 2E48     		ldr	r0, .L57+16
+ 699 0026 2F4F     		ldr	r7, .L57+20
+ 700 0028 2F4E     		ldr	r6, .L57+24
+ 701 002a FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
+ 702              	.LVL36:
+ 703              	.L45:
  128:../libDaisy//src/daisy_seed.h ****     }
- 500              		.loc 1 128 23 view .LVU104
- 501              	.LBE403:
- 502              	.LBE402:
-  45:slidingGuitar_motorDriver.cpp **** 
-  46:slidingGuitar_motorDriver.cpp **** 	// //Blinking
-  47:slidingGuitar_motorDriver.cpp **** 	// uint32_t blink_rate = 50; /**< Change me to test tweaking the program! */
-  48:slidingGuitar_motorDriver.cpp **** 
-  49:slidingGuitar_motorDriver.cpp **** 	// bool blinkState = false;
-  50:slidingGuitar_motorDriver.cpp **** 	// /** Timing variables */
-  51:slidingGuitar_motorDriver.cpp ****     // uint32_t now, blink_time;
-  52:slidingGuitar_motorDriver.cpp ****     // now = blink_time = System::GetNow();
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 39
-
-
-  53:slidingGuitar_motorDriver.cpp **** 	// //end Blinking
-  54:slidingGuitar_motorDriver.cpp **** 
-  55:slidingGuitar_motorDriver.cpp ****     while(1) {
- 503              		.loc 8 55 5 is_stmt 1 view .LVU105
- 504              	.LBB404:
-  56:slidingGuitar_motorDriver.cpp **** 	/* Whenever the FIFO has contents,
-  57:slidingGuitar_motorDriver.cpp ****     go through and print each message that has been received */
-  58:slidingGuitar_motorDriver.cpp ****         while(!msg_fifo.IsEmpty())
- 505              		.loc 8 58 9 view .LVU106
- 506              		.loc 8 58 15 view .LVU107
- 507              	.LBB405:
- 508              	.LBI405:
+ 704              		.loc 1 128 23 view .LVU178
+ 705              	.LBE410:
+ 706              	.LBE409:
+ 105:slidingGuitar_motorDriver.cpp **** 
+ 106:slidingGuitar_motorDriver.cpp **** 	// //Blinking
+ 107:slidingGuitar_motorDriver.cpp **** 	// uint32_t blink_rate = 50; /**< Change me to test tweaking the program! */
+ 108:slidingGuitar_motorDriver.cpp **** 
+ 109:slidingGuitar_motorDriver.cpp **** 	// bool blinkState = false;
+ 110:slidingGuitar_motorDriver.cpp **** 	// /** Timing variables */
+ 111:slidingGuitar_motorDriver.cpp ****     // uint32_t now, blink_time;
+ 112:slidingGuitar_motorDriver.cpp ****     // now = blink_time = System::GetNow();
+ 113:slidingGuitar_motorDriver.cpp **** 	// //end Blinking
+ 114:slidingGuitar_motorDriver.cpp **** 
+ 115:slidingGuitar_motorDriver.cpp ****     while(1) {
+ 707              		.loc 8 115 5 is_stmt 1 view .LVU179
+ 708              	.LBB411:
+ 116:slidingGuitar_motorDriver.cpp ****     // Read the 32-bit hardware counter directly from STM32 silicon registers
+ 117:slidingGuitar_motorDriver.cpp ****     int32_t current_ticks = (int32_t)__HAL_TIM_GET_COUNTER(&htim2);
+ 709              		.loc 8 117 5 view .LVU180
+ 710              		.loc 8 117 38 is_stmt 0 view .LVU181
+ 711 002e 3A68     		ldr	r2, [r7]
+ 118:slidingGuitar_motorDriver.cpp **** 	/* Whenever the FIFO has contents,
+ 119:slidingGuitar_motorDriver.cpp ****     go through and print each message that has been received */
+ 120:slidingGuitar_motorDriver.cpp ****         while(!msg_fifo.IsEmpty())
+ 712              		.loc 8 120 15 view .LVU182
+ 713 0030 D6E90234 		ldrd	r3, r4, [r6, #8]
+ 117:slidingGuitar_motorDriver.cpp **** 	/* Whenever the FIFO has contents,
+ 714              		.loc 8 117 38 view .LVU183
+ 715 0034 526A     		ldr	r2, [r2, #36]
+ 716              		.loc 8 120 9 is_stmt 1 view .LVU184
+ 717              		.loc 8 120 15 view .LVU185
+ 718              	.LVL37:
+ 719              	.LBB412:
+ 720              	.LBI412:
  165:../libDaisy//src/util/FIFO.h **** 
- 509              		.loc 7 165 10 view .LVU108
- 510              	.LBE405:
- 511              	.LBB406:
-  59:slidingGuitar_motorDriver.cpp ****         {
-  60:slidingGuitar_motorDriver.cpp ****             auto msg = msg_fifo.PopFront();
- 512              		.loc 8 60 13 view .LVU109
- 513              	.LBB407:
- 514              	.LBI407:
+ 721              		.loc 7 165 10 view .LVU186
+ 165:../libDaisy//src/util/FIFO.h **** 
+ 722              		.loc 7 165 10 is_stmt 0 view .LVU187
+ 723              	.LBE412:
+ 724              		.loc 8 120 15 view .LVU188
+ 725 0036 A342     		cmp	r3, r4
+ 726 0038 41D0     		beq	.L49
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 45
+
+
+ 727              	.L44:
+ 728              	.LBB413:
+ 121:slidingGuitar_motorDriver.cpp ****         {
+ 122:slidingGuitar_motorDriver.cpp ****             auto msg = msg_fifo.PopFront();
+ 729              		.loc 8 122 13 is_stmt 1 view .LVU189
+ 730              	.LVL38:
+ 731              	.LBB414:
+ 732              	.LBI414:
  101:../libDaisy//src/util/FIFO.h ****     {
- 515              		.loc 7 101 7 view .LVU110
- 516              	.LBB408:
- 517              	.LBB409:
- 518              	.LBB410:
- 519              	.LBB411:
+ 733              		.loc 7 101 7 view .LVU190
+ 734              	.LBB415:
+ 107:../libDaisy//src/util/FIFO.h ****             bufferOut_++;
+ 735              		.loc 7 107 40 is_stmt 0 view .LVU191
+ 736 003a 04EBC403 		add	r3, r4, r4, lsl #3
+ 737 003e D6F80080 		ldr	r8, [r6]
+ 738              	.LBB416:
+ 739              	.LBB417:
+ 740              	.LBB418:
  498:../libDaisy//src/util/FixedCapStr.h ****     {
- 520              		.loc 9 498 50 is_stmt 0 view .LVU111
- 521 002a 8122     		movs	r2, #129
- 522 002c 0021     		movs	r1, #0
- 523 002e 27A8     		add	r0, sp, #156
- 524              	.LBE411:
- 525              	.LBE410:
- 526              	.LBE409:
- 527              	.LBE408:
- 528              	.LBE407:
- 529              	.LBE406:
-  58:slidingGuitar_motorDriver.cpp ****         {
- 530              		.loc 8 58 15 view .LVU112
- 531 0030 D5E90264 		ldrd	r6, r4, [r5, #8]
- 532              	.LBB468:
- 533              	.LBB460:
- 534              	.LBB457:
+ 741              		.loc 9 498 50 view .LVU192
+ 742 0042 0021     		movs	r1, #0
+ 743 0044 8122     		movs	r2, #129
+ 744              	.LBE418:
+ 745              	.LBE417:
+ 746              	.LBE416:
  107:../libDaisy//src/util/FIFO.h ****             bufferOut_++;
- 535              		.loc 7 107 40 view .LVU113
- 536 0034 04EBC403 		add	r3, r4, r4, lsl #3
- 537              	.LBE457:
- 538              	.LBE460:
- 539              	.LBE468:
-  58:slidingGuitar_motorDriver.cpp ****         {
- 540              		.loc 8 58 15 view .LVU114
- 541 0038 B442     		cmp	r4, r6
- 542              	.LBB469:
- 543              	.LBB461:
- 544              	.LBB458:
+ 747              		.loc 7 107 40 view .LVU193
+ 748 0046 4FEA0319 		lsl	r9, r3, #4
+ 749              	.LBB435:
+ 750              	.LBB433:
+ 751              	.LBB431:
+ 498:../libDaisy//src/util/FixedCapStr.h ****     {
+ 752              		.loc 9 498 50 view .LVU194
+ 753 004a 27A8     		add	r0, sp, #156
+ 754              	.LBE431:
+ 755              	.LBE433:
+ 756              	.LBE435:
  107:../libDaisy//src/util/FIFO.h ****             bufferOut_++;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 40
-
-
- 545              		.loc 7 107 40 view .LVU115
- 546 003a 4FEA0317 		lsl	r7, r3, #4
- 547              	.LBE458:
- 548              	.LBE461:
- 549              	.LBE469:
-  58:slidingGuitar_motorDriver.cpp ****         {
- 550              		.loc 8 58 15 view .LVU116
- 551 003e 33D0     		beq	.L38
- 552              	.LBB470:
- 553              	.LBB462:
- 554              	.LBB459:
- 107:../libDaisy//src/util/FIFO.h ****             bufferOut_++;
- 555              		.loc 7 107 40 view .LVU117
- 556 0040 D5F80080 		ldr	r8, [r5]
- 557 0044 08EB0316 		add	r6, r8, r3, lsl #4
- 558              	.LVL34:
- 559              	.LBB426:
- 560              	.LBI409:
+ 757              		.loc 7 107 40 view .LVU195
+ 758 004c 08EB0315 		add	r5, r8, r3, lsl #4
+ 759              	.LVL39:
+ 760              	.LBB436:
+ 761              	.LBI416:
  497:../libDaisy//src/util/FixedCapStr.h ****     : FixedCapStrBase<CharType>(buffer_, capacity)
- 561              		.loc 9 497 15 is_stmt 1 view .LVU118
- 562              	.LBB425:
- 563              	.LBB424:
- 564              	.LBB412:
- 565              	.LBI412:
+ 762              		.loc 9 497 15 is_stmt 1 view .LVU196
+ 763              	.LBB434:
+ 764              	.LBB432:
+ 765              	.LBB419:
+ 766              	.LBI419:
   16:../libDaisy//src/util/FixedCapStr.h ****     : capacity_(capacity), buffer_(buffer)
- 566              		.loc 9 16 15 view .LVU119
+ 767              		.loc 9 16 15 view .LVU197
   16:../libDaisy//src/util/FixedCapStr.h ****     : capacity_(capacity), buffer_(buffer)
- 567              		.loc 9 16 15 is_stmt 0 view .LVU120
- 568              	.LBE412:
+ 768              		.loc 9 16 15 is_stmt 0 view .LVU198
+ 769              	.LBE419:
  498:../libDaisy//src/util/FixedCapStr.h ****     {
- 569              		.loc 9 498 50 view .LVU121
- 570 0048 FFF7FEFF 		bl	memset
- 571              	.LVL35:
- 572              	.LBB413:
- 573              	.LBI413:
-  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
- 574              		.loc 9 44 20 is_stmt 1 view .LVU122
- 575              	.LBB414:
-  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
- 576              		.loc 9 44 51 is_stmt 0 view .LVU123
- 577 004c 58F80770 		ldr	r7, [r8, r7]
- 578              	.LVL36:
-  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
- 579              		.loc 9 44 51 view .LVU124
- 580              	.LBE414:
- 581              	.LBE413:
- 582              	.LBB415:
- 583              	.LBI415:
- 584              		.loc 10 230 5 is_stmt 1 view .LVU125
- 585              	.LBE415:
- 586              	.LBB416:
- 587              	.LBB417:
-  41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 588              		.loc 9 41 62 is_stmt 0 view .LVU126
- 589 0050 B168     		ldr	r1, [r6, #8]
- 590              	.LBE417:
- 591              	.LBE416:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 41
+ 770              		.loc 9 498 50 view .LVU199
+ 771 0050 FFF7FEFF 		bl	memset
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 46
 
 
- 592              	.LBB418:
- 593              	.LBB419:
+ 772              	.LVL40:
+ 773              	.LBB420:
+ 774              	.LBI420:
+  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
+ 775              		.loc 9 44 20 is_stmt 1 view .LVU200
+ 776              	.LBB421:
+  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
+ 777              		.loc 9 44 51 is_stmt 0 view .LVU201
+ 778 0054 58F80980 		ldr	r8, [r8, r9]
+ 779              	.LVL41:
+  44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
+ 780              		.loc 9 44 51 view .LVU202
+ 781              	.LBE421:
+ 782              	.LBE420:
+ 783              	.LBB422:
+ 784              	.LBI422:
+ 785              		.loc 10 230 5 is_stmt 1 view .LVU203
+ 786              	.LBE422:
+ 787              	.LBB423:
+ 788              	.LBB424:
+  41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
+ 789              		.loc 9 41 62 is_stmt 0 view .LVU204
+ 790 0058 A968     		ldr	r1, [r5, #8]
+ 791              	.LBE424:
+ 792              	.LBE423:
+ 793              	.LBB425:
+ 794              	.LBB426:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 594              		.loc 9 418 19 view .LVU127
- 595 0052 27A8     		add	r0, sp, #156
- 596 0054 802F     		cmp	r7, #128
- 597 0056 3E46     		mov	r6, r7
- 598              	.LVL37:
+ 795              		.loc 9 418 19 view .LVU205
+ 796 005a 27A8     		add	r0, sp, #156
+ 797 005c 4546     		mov	r5, r8
+ 798              	.LVL42:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 599              		.loc 9 418 19 view .LVU128
- 600 0058 28BF     		it	cs
- 601 005a 8026     		movcs	r6, #128
- 602              	.LVL38:
+ 799              		.loc 9 418 19 view .LVU206
+ 800 005e 802D     		cmp	r5, #128
+ 801 0060 28BF     		it	cs
+ 802 0062 8025     		movcs	r5, #128
+ 803              	.LVL43:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 603              		.loc 9 418 19 view .LVU129
- 604              	.LBE419:
- 605              	.LBE418:
- 606              	.LBB421:
- 607              	.LBI416:
+ 804              		.loc 9 418 19 view .LVU207
+ 805              	.LBE426:
+ 806              	.LBE425:
+ 807              	.LBB428:
+ 808              	.LBI423:
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 608              		.loc 9 41 31 is_stmt 1 view .LVU130
+ 809              		.loc 9 41 31 is_stmt 1 view .LVU208
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 609              		.loc 9 41 31 is_stmt 0 view .LVU131
- 610              	.LBE421:
- 611              	.LBB422:
- 612              	.LBI422:
+ 810              		.loc 9 41 31 is_stmt 0 view .LVU209
+ 811              	.LBE428:
+ 812              	.LBB429:
+ 813              	.LBI429:
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 613              		.loc 9 41 31 is_stmt 1 view .LVU132
+ 814              		.loc 9 41 31 is_stmt 1 view .LVU210
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 614              		.loc 9 41 31 is_stmt 0 view .LVU133
- 615              	.LBE422:
- 616              	.LBB423:
- 617              	.LBI418:
+ 815              		.loc 9 41 31 is_stmt 0 view .LVU211
+ 816              	.LBE429:
+ 817              	.LBB430:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 47
+
+
+ 818              	.LBI425:
  414:../libDaisy//src/util/FixedCapStr.h ****     {
- 618              		.loc 9 414 5 is_stmt 1 view .LVU134
- 619              	.LBB420:
+ 819              		.loc 9 414 5 is_stmt 1 view .LVU212
+ 820              	.LBB427:
  416:../libDaisy//src/util/FixedCapStr.h ****         {
- 620              		.loc 9 416 19 view .LVU135
- 621 005c 17B1     		cbz	r7, .L39
+ 821              		.loc 9 416 19 view .LVU213
+ 822 0064 B8F1000F 		cmp	r8, #0
+ 823 0068 02D0     		beq	.L46
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 622              		.loc 9 418 19 is_stmt 0 view .LVU136
- 623 005e 3246     		mov	r2, r6
- 624 0060 FFF7FEFF 		bl	memcpy
- 625              	.LVL39:
- 626              	.L39:
+ 824              		.loc 9 418 19 is_stmt 0 view .LVU214
+ 825 006a 2A46     		mov	r2, r5
+ 826 006c FFF7FEFF 		bl	memcpy
+ 827              	.LVL44:
+ 828              	.L46:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 627              		.loc 9 418 19 view .LVU137
- 628              	.LBE420:
- 629              	.LBE423:
- 630              	.LBE424:
- 631              	.LBE425:
- 632              	.LBE426:
- 633              	.LBB427:
- 634              	.LBI427:
+ 829              		.loc 9 418 19 view .LVU215
+ 830              	.LBE427:
+ 831              	.LBE430:
+ 832              	.LBE432:
+ 833              	.LBE434:
+ 834              	.LBE436:
+ 835              	.LBB437:
+ 836              	.LBI437:
  497:../libDaisy//src/util/FixedCapStr.h ****     : FixedCapStrBase<CharType>(buffer_, capacity)
- 635              		.loc 9 497 15 is_stmt 1 view .LVU138
- 636              	.LBB428:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 42
-
-
- 637              	.LBB429:
- 638              	.LBB430:
- 639              	.LBI430:
+ 837              		.loc 9 497 15 is_stmt 1 view .LVU216
+ 838              	.LBB438:
+ 839              	.LBB439:
+ 840              	.LBB440:
+ 841              	.LBI440:
   16:../libDaisy//src/util/FixedCapStr.h ****     : capacity_(capacity), buffer_(buffer)
- 640              		.loc 9 16 15 view .LVU139
- 641              	.LBE430:
- 642              	.LBE429:
- 643              	.LBE428:
- 644              	.LBE427:
+ 842              		.loc 9 16 15 view .LVU217
+ 843              	.LBE440:
+ 844              	.LBE439:
+ 845              	.LBE438:
+ 846              	.LBE437:
  109:../libDaisy//src/util/FIFO.h ****                 bufferOut_ -= bufferSize_;
- 645              		.loc 7 109 30 is_stmt 0 view .LVU140
- 646 0064 6B68     		ldr	r3, [r5, #4]
+ 847              		.loc 7 109 30 is_stmt 0 view .LVU218
+ 848 0070 7368     		ldr	r3, [r6, #4]
  108:../libDaisy//src/util/FIFO.h ****             if(bufferOut_ >= bufferSize_)
- 647              		.loc 7 108 13 view .LVU141
- 648 0066 0134     		adds	r4, r4, #1
- 649              	.LBB454:
- 650              	.LBB451:
- 651              	.LBB448:
- 652              	.LBB437:
- 653              	.LBB431:
- 654              	.LBB432:
+ 849              		.loc 7 108 13 view .LVU219
+ 850 0072 0134     		adds	r4, r4, #1
+ 851              	.LBB464:
+ 852              	.LBB461:
+ 853              	.LBB458:
+ 854              	.LBB447:
+ 855              	.LBB441:
+ 856              	.LBB442:
   17:../libDaisy//src/util/FixedCapStr.h ****     {
- 655              		.loc 9 17 42 view .LVU142
- 656 0068 4FF0800C 		mov	ip, #128
- 657              	.LBE432:
- 658              	.LBE431:
- 659              	.LBE437:
+ 857              		.loc 9 17 42 view .LVU220
+ 858 0074 4FF0800C 		mov	ip, #128
+ 859              	.LBE442:
+ 860              	.LBE441:
+ 861              	.LBE447:
  498:../libDaisy//src/util/FixedCapStr.h ****     {
- 660              		.loc 9 498 50 view .LVU143
- 661 006c 8122     		movs	r2, #129
- 662              	.LBE448:
- 663              	.LBE451:
- 664              	.LBE454:
- 109:../libDaisy//src/util/FIFO.h ****                 bufferOut_ -= bufferSize_;
- 665              		.loc 7 109 13 view .LVU144
- 666 006e 9C42     		cmp	r4, r3
- 108:../libDaisy//src/util/FIFO.h ****             if(bufferOut_ >= bufferSize_)
- 667              		.loc 7 108 13 view .LVU145
- 668 0070 EC60     		str	r4, [r5, #12]
- 110:../libDaisy//src/util/FIFO.h ****             return result;
- 669              		.loc 7 110 28 view .LVU146
- 670 0072 A4EB0304 		sub	r4, r4, r3
- 671              	.LBB455:
- 672              	.LBB452:
- 673              	.LBB449:
- 674              	.LBB438:
- 675              	.LBB435:
- 676              	.LBB433:
-  17:../libDaisy//src/util/FixedCapStr.h ****     {
- 677              		.loc 9 17 42 view .LVU147
- 678 0076 03AB     		add	r3, sp, #12
- 679              	.LVL40:
-  17:../libDaisy//src/util/FixedCapStr.h ****     {
- 680              		.loc 9 17 42 view .LVU148
- 681              	.LBE433:
- 682              	.LBE435:
- 683              	.LBE438:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 43
+ 862              		.loc 9 498 50 view .LVU221
+ 863 0078 8122     		movs	r2, #129
+ 864              	.LBE458:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 48
 
 
- 498:../libDaisy//src/util/FixedCapStr.h ****     {
- 684              		.loc 9 498 50 view .LVU149
- 685 0078 4FF00001 		mov	r1, #0
- 686 007c 03A8     		add	r0, sp, #12
- 687              	.LBE449:
- 688              	.LBE452:
- 689              	.LBE455:
+ 865              	.LBE461:
+ 866              	.LBE464:
+ 109:../libDaisy//src/util/FIFO.h ****                 bufferOut_ -= bufferSize_;
+ 867              		.loc 7 109 13 view .LVU222
+ 868 007a 9C42     		cmp	r4, r3
+ 108:../libDaisy//src/util/FIFO.h ****             if(bufferOut_ >= bufferSize_)
+ 869              		.loc 7 108 13 view .LVU223
+ 870 007c F460     		str	r4, [r6, #12]
  110:../libDaisy//src/util/FIFO.h ****             return result;
- 690              		.loc 7 110 28 view .LVU150
- 691 007e 28BF     		it	cs
- 692 0080 EC60     		strcs	r4, [r5, #12]
- 693              	.LBB456:
- 694              	.LBB453:
- 695              	.LBB450:
- 696              	.LBB439:
- 697              	.LBB436:
- 698              	.LBB434:
+ 871              		.loc 7 110 28 view .LVU224
+ 872 007e A4EB0304 		sub	r4, r4, r3
+ 873              	.LBB465:
+ 874              	.LBB462:
+ 875              	.LBB459:
+ 876              	.LBB448:
+ 877              	.LBB445:
+ 878              	.LBB443:
   17:../libDaisy//src/util/FixedCapStr.h ****     {
- 699              		.loc 9 17 42 view .LVU151
- 700 0082 CDF804C0 		str	ip, [sp, #4]
- 701 0086 0293     		str	r3, [sp, #8]
- 702              	.LVL41:
+ 879              		.loc 9 17 42 view .LVU225
+ 880 0082 03AB     		add	r3, sp, #12
+ 881              	.LVL45:
   17:../libDaisy//src/util/FixedCapStr.h ****     {
- 703              		.loc 9 17 42 view .LVU152
- 704              	.LBE434:
- 705              	.LBE436:
- 706              	.LBE439:
+ 882              		.loc 9 17 42 view .LVU226
+ 883              	.LBE443:
+ 884              	.LBE445:
+ 885              	.LBE448:
  498:../libDaisy//src/util/FixedCapStr.h ****     {
- 707              		.loc 9 498 50 view .LVU153
- 708 0088 FFF7FEFF 		bl	memset
- 709              	.LVL42:
- 710              	.LBB440:
- 711              	.LBI440:
+ 886              		.loc 9 498 50 view .LVU227
+ 887 0084 4FF00001 		mov	r1, #0
+ 888 0088 03A8     		add	r0, sp, #12
+ 889              	.LBE459:
+ 890              	.LBE462:
+ 891              	.LBE465:
+ 110:../libDaisy//src/util/FIFO.h ****             return result;
+ 892              		.loc 7 110 28 view .LVU228
+ 893 008a 28BF     		it	cs
+ 894 008c F460     		strcs	r4, [r6, #12]
+ 895              	.LBB466:
+ 896              	.LBB463:
+ 897              	.LBB460:
+ 898              	.LBB449:
+ 899              	.LBB446:
+ 900              	.LBB444:
+  17:../libDaisy//src/util/FixedCapStr.h ****     {
+ 901              		.loc 9 17 42 view .LVU229
+ 902 008e CDF804C0 		str	ip, [sp, #4]
+ 903 0092 0293     		str	r3, [sp, #8]
+ 904              	.LVL46:
+  17:../libDaisy//src/util/FixedCapStr.h ****     {
+ 905              		.loc 9 17 42 view .LVU230
+ 906              	.LBE444:
+ 907              	.LBE446:
+ 908              	.LBE449:
+ 498:../libDaisy//src/util/FixedCapStr.h ****     {
+ 909              		.loc 9 498 50 view .LVU231
+ 910 0094 FFF7FEFF 		bl	memset
+ 911              	.LVL47:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 49
+
+
+ 912              	.LBB450:
+ 913              	.LBI450:
   44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
- 712              		.loc 9 44 20 is_stmt 1 view .LVU154
+ 914              		.loc 9 44 20 is_stmt 1 view .LVU232
   44:../libDaisy//src/util/FixedCapStr.h ****     constexpr auto UpdateSize() noexcept
- 713              		.loc 9 44 20 is_stmt 0 view .LVU155
- 714              	.LBE440:
- 715              	.LBB441:
- 716              	.LBI441:
- 717              		.loc 10 230 5 is_stmt 1 view .LVU156
- 718              		.loc 10 230 5 is_stmt 0 view .LVU157
- 719              	.LBE441:
- 720              	.LBB442:
- 721              	.LBB443:
+ 915              		.loc 9 44 20 is_stmt 0 view .LVU233
+ 916              	.LBE450:
+ 917              	.LBB451:
+ 918              	.LBI451:
+ 919              		.loc 10 230 5 is_stmt 1 view .LVU234
+ 920              		.loc 10 230 5 is_stmt 0 view .LVU235
+ 921              	.LBE451:
+ 922              	.LBB452:
+ 923              	.LBB453:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 722              		.loc 9 418 19 view .LVU158
- 723 008c 3246     		mov	r2, r6
- 724 008e 27A9     		add	r1, sp, #156
- 725 0090 03A8     		add	r0, sp, #12
- 726              	.LBE443:
- 727              	.LBE442:
+ 924              		.loc 9 418 19 view .LVU236
+ 925 0098 2A46     		mov	r2, r5
+ 926 009a 27A9     		add	r1, sp, #156
+ 927 009c 03A8     		add	r0, sp, #12
+ 928              	.LBE453:
+ 929              	.LBE452:
  500:../libDaisy//src/util/FixedCapStr.h ****         this->Copy_(str.Data(), str.Data() + this->size_, buffer_);
- 728              		.loc 9 500 21 view .LVU159
- 729 0092 0096     		str	r6, [sp]
- 730              	.LVL43:
- 731              	.LBB445:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 44
-
-
- 732              	.LBI445:
+ 930              		.loc 9 500 21 view .LVU237
+ 931 009e 0095     		str	r5, [sp]
+ 932              	.LVL48:
+ 933              	.LBB455:
+ 934              	.LBI455:
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 733              		.loc 9 41 31 is_stmt 1 view .LVU160
+ 935              		.loc 9 41 31 is_stmt 1 view .LVU238
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 734              		.loc 9 41 31 is_stmt 0 view .LVU161
- 735              	.LBE445:
- 736              	.LBB446:
- 737              	.LBI446:
+ 936              		.loc 9 41 31 is_stmt 0 view .LVU239
+ 937              	.LBE455:
+ 938              	.LBB456:
+ 939              	.LBI456:
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 738              		.loc 9 41 31 is_stmt 1 view .LVU162
+ 940              		.loc 9 41 31 is_stmt 1 view .LVU240
   41:../libDaisy//src/util/FixedCapStr.h ****     constexpr CharType*       Data() noexcept { return buffer_; }
- 739              		.loc 9 41 31 is_stmt 0 view .LVU163
- 740              	.LBE446:
- 741              	.LBB447:
- 742              	.LBI442:
+ 941              		.loc 9 41 31 is_stmt 0 view .LVU241
+ 942              	.LBE456:
+ 943              	.LBB457:
+ 944              	.LBI452:
  414:../libDaisy//src/util/FixedCapStr.h ****     {
- 743              		.loc 9 414 5 is_stmt 1 view .LVU164
- 744              	.LBB444:
+ 945              		.loc 9 414 5 is_stmt 1 view .LVU242
+ 946              	.LBB454:
  416:../libDaisy//src/util/FixedCapStr.h ****         {
- 745              		.loc 9 416 19 view .LVU165
- 746 0094 0FB1     		cbz	r7, .L43
+ 947              		.loc 9 416 19 view .LVU243
+ 948 00a0 B8F1000F 		cmp	r8, #0
+ 949 00a4 01D0     		beq	.L50
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 747              		.loc 9 418 19 is_stmt 0 view .LVU166
- 748 0096 FFF7FEFF 		bl	memcpy
- 749              	.LVL44:
- 750              	.L43:
+ 950              		.loc 9 418 19 is_stmt 0 view .LVU244
+ 951 00a6 FFF7FEFF 		bl	memcpy
+ 952              	.LVL49:
+ 953              	.L50:
  418:../libDaisy//src/util/FixedCapStr.h ****             src++;
- 751              		.loc 9 418 19 view .LVU167
- 752              	.LBE444:
- 753              	.LBE447:
- 754              	.LBE450:
- 755              	.LBE453:
- 756              	.LBE456:
- 757              	.LBE459:
- 758              	.LBE462:
-  61:slidingGuitar_motorDriver.cpp ****             hw.Print("Received Message: ");
- 759              		.loc 8 61 13 is_stmt 1 view .LVU168
- 760              	.LBB463:
- 761              	.LBI463:
+ 954              		.loc 9 418 19 view .LVU245
+ 955              	.LBE454:
+ 956              	.LBE457:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 50
+
+
+ 957              	.LBE460:
+ 958              	.LBE463:
+ 959              	.LBE466:
+ 960              	.LBE415:
+ 961              	.LBE414:
+ 123:slidingGuitar_motorDriver.cpp ****             hw.Print("Received Message: ");
+ 962              		.loc 8 123 13 is_stmt 1 view .LVU246
+ 963              	.LBB467:
+ 964              	.LBI467:
  118:../libDaisy//src/daisy_seed.h ****     {
- 762              		.loc 1 118 17 view .LVU169
- 763              	.LBB464:
+ 965              		.loc 1 118 17 view .LVU247
+ 966              	.LBB468:
  120:../libDaisy//src/daisy_seed.h ****     }
- 764              		.loc 1 120 19 is_stmt 0 view .LVU170
- 765 009a 0E48     		ldr	r0, .L48+24
- 766 009c FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE5PrintEPKcz
- 767              	.LVL45:
+ 967              		.loc 1 120 19 is_stmt 0 view .LVU248
+ 968 00aa 1048     		ldr	r0, .L57+28
+ 969 00ac FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE5PrintEPKcz
+ 970              	.LVL50:
  120:../libDaisy//src/daisy_seed.h ****     }
- 768              		.loc 1 120 19 view .LVU171
- 769              	.LBE464:
- 770              	.LBE463:
-  62:slidingGuitar_motorDriver.cpp ****             hw.PrintLine(msg.Cstr());
- 771              		.loc 8 62 13 is_stmt 1 view .LVU172
- 772              	.LBB465:
- 773              	.LBI465:
+ 971              		.loc 1 120 19 view .LVU249
+ 972              	.LBE468:
+ 973              	.LBE467:
+ 124:slidingGuitar_motorDriver.cpp ****             hw.PrintLine(msg.Cstr());
+ 974              		.loc 8 124 13 is_stmt 1 view .LVU250
+ 975              	.LBB469:
+ 976              	.LBI469:
   40:../libDaisy//src/util/FixedCapStr.h ****     constexpr const CharType* Data() const noexcept { return buffer_; }
- 774              		.loc 9 40 31 view .LVU173
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 45
-
-
+ 977              		.loc 9 40 31 view .LVU251
   40:../libDaisy//src/util/FixedCapStr.h ****     constexpr const CharType* Data() const noexcept { return buffer_; }
- 775              		.loc 9 40 31 is_stmt 0 view .LVU174
- 776              	.LBE465:
- 777              	.LBB466:
- 778              	.LBI466:
+ 978              		.loc 9 40 31 is_stmt 0 view .LVU252
+ 979              	.LBE469:
+ 980              	.LBB470:
+ 981              	.LBI470:
  126:../libDaisy//src/daisy_seed.h ****     {
- 779              		.loc 1 126 17 is_stmt 1 view .LVU175
- 780              	.LBB467:
+ 982              		.loc 1 126 17 is_stmt 1 view .LVU253
+ 983              	.LBB471:
  128:../libDaisy//src/daisy_seed.h ****     }
- 781              		.loc 1 128 23 is_stmt 0 view .LVU176
- 782 00a0 0298     		ldr	r0, [sp, #8]
- 783 00a2 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 784              	.LVL46:
+ 984              		.loc 1 128 23 is_stmt 0 view .LVU254
+ 985 00b0 0298     		ldr	r0, [sp, #8]
+ 986 00b2 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
+ 987              	.LVL51:
  128:../libDaisy//src/daisy_seed.h ****     }
- 785              		.loc 1 128 23 view .LVU177
- 786              	.LBE467:
- 787              	.LBE466:
- 788              	.LBE470:
-  58:slidingGuitar_motorDriver.cpp ****         {
- 789              		.loc 8 58 9 view .LVU178
- 790 00a6 C0E7     		b	.L37
- 791              	.LVL47:
- 792              	.L38:
-  63:slidingGuitar_motorDriver.cpp ****         }
-  64:slidingGuitar_motorDriver.cpp **** 
-  65:slidingGuitar_motorDriver.cpp ****         /** Blink LED to show program is running (this indicates to
-  66:slidingGuitar_motorDriver.cpp ****          * the user that the Serial Monitor Connection has been established) */
-  67:slidingGuitar_motorDriver.cpp ****         hw.SetLed((System::GetNow() & 1023) > 511);
- 793              		.loc 8 67 9 is_stmt 1 view .LVU179
- 794              		.loc 8 67 34 is_stmt 0 view .LVU180
- 795 00a8 FFF7FEFF 		bl	_ZN5daisy6System6GetNowEv
- 796              	.LVL48:
- 797 00ac 0146     		mov	r1, r0
- 798              		.loc 8 67 18 view .LVU181
- 799 00ae 0348     		ldr	r0, .L48
- 800 00b0 C1F34021 		ubfx	r1, r1, #9, #1
- 801 00b4 FFF7FEFF 		bl	_ZN5daisy9DaisySeed6SetLedEb
- 802              	.LVL49:
- 803              	.LBE404:
-  55:slidingGuitar_motorDriver.cpp **** 	/* Whenever the FIFO has contents,
- 804              		.loc 8 55 5 is_stmt 1 view .LVU182
-  68:slidingGuitar_motorDriver.cpp **** 	}
- 805              		.loc 8 68 2 is_stmt 0 view .LVU183
- 806 00b8 B7E7     		b	.L37
- 807              	.L49:
- 808 00ba 00BF     		.align	2
- 809              	.L48:
- 810 00bc 00000000 		.word	.LANCHOR1
- 811 00c0 00000000 		.word	.LC0
- 812 00c4 24000000 		.word	.LANCHOR1+36
- 813 00c8 00000000 		.word	_Z11UsbCallbackPhPm
- 814 00cc 10000000 		.word	.LC1
- 815 00d0 00000000 		.word	.LANCHOR0
- 816 00d4 38000000 		.word	.LC2
- 817              		.cfi_endproc
- 818              	.LFE3257:
- 820              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 46
+ 988              		.loc 1 128 23 view .LVU255
+ 989              	.LBE471:
+ 990              	.LBE470:
+ 991              	.LBE413:
+ 120:slidingGuitar_motorDriver.cpp ****         {
+ 992              		.loc 8 120 9 is_stmt 1 view .LVU256
+ 120:slidingGuitar_motorDriver.cpp ****         {
+ 993              		.loc 8 120 15 view .LVU257
+ 994              	.LBB472:
+ 165:../libDaisy//src/util/FIFO.h **** 
+ 995              		.loc 7 165 10 view .LVU258
+ 996              	.LBE472:
+ 120:slidingGuitar_motorDriver.cpp ****         {
+ 997              		.loc 8 120 15 is_stmt 0 view .LVU259
+ 998 00b6 D6E90234 		ldrd	r3, r4, [r6, #8]
+ 999 00ba 9C42     		cmp	r4, r3
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 51
 
 
- 821              		.align	1
- 822              		.p2align 2,,3
- 823              		.syntax unified
- 824              		.thumb
- 825              		.thumb_func
- 826              		.fpu fpv5-d16
- 828              	_GLOBAL__sub_I_hw:
- 829              	.LFB3313:
-  69:slidingGuitar_motorDriver.cpp **** }
- 830              		.loc 8 69 1 is_stmt 1 view -0
- 831              		.cfi_startproc
- 832              		@ args = 0, pretend = 0, frame = 0
- 833              		@ frame_needed = 0, uses_anonymous_args = 0
- 834              	.LBB549:
- 835              	.LBI549:
- 836              		.loc 8 69 1 view .LVU185
- 837              	.LVL50:
- 838              	.LBB550:
- 839              	.LBB551:
- 840              	.LBI551:
+ 1000 00bc BDD1     		bne	.L44
+ 1001              	.LVL52:
+ 1002              	.L49:
+ 125:slidingGuitar_motorDriver.cpp ****         }
+ 126:slidingGuitar_motorDriver.cpp **** 
+ 127:slidingGuitar_motorDriver.cpp ****         /** Blink LED to show program is running (this indicates to
+ 128:slidingGuitar_motorDriver.cpp ****          * the user that the Serial Monitor Connection has been established) */
+ 129:slidingGuitar_motorDriver.cpp ****         hw.SetLed((System::GetNow() & 1023) > 511);
+ 1003              		.loc 8 129 9 is_stmt 1 view .LVU260
+ 1004              		.loc 8 129 34 is_stmt 0 view .LVU261
+ 1005 00be FFF7FEFF 		bl	_ZN5daisy6System6GetNowEv
+ 1006              	.LVL53:
+ 1007 00c2 0146     		mov	r1, r0
+ 1008              		.loc 8 129 18 view .LVU262
+ 1009 00c4 0248     		ldr	r0, .L57
+ 1010 00c6 C1F34021 		ubfx	r1, r1, #9, #1
+ 1011 00ca FFF7FEFF 		bl	_ZN5daisy9DaisySeed6SetLedEb
+ 1012              	.LVL54:
+ 1013              	.LBE411:
+ 115:slidingGuitar_motorDriver.cpp ****     // Read the 32-bit hardware counter directly from STM32 silicon registers
+ 1014              		.loc 8 115 5 is_stmt 1 view .LVU263
+ 130:slidingGuitar_motorDriver.cpp **** 	}
+ 1015              		.loc 8 130 2 is_stmt 0 view .LVU264
+ 1016 00ce AEE7     		b	.L45
+ 1017              	.L58:
+ 1018              		.align	2
+ 1019              	.L57:
+ 1020 00d0 00000000 		.word	.LANCHOR2
+ 1021 00d4 00000000 		.word	.LC0
+ 1022 00d8 24000000 		.word	.LANCHOR2+36
+ 1023 00dc 00000000 		.word	_Z11UsbCallbackPhPm
+ 1024 00e0 10000000 		.word	.LC1
+ 1025 00e4 00000000 		.word	.LANCHOR1
+ 1026 00e8 00000000 		.word	.LANCHOR0
+ 1027 00ec 38000000 		.word	.LC2
+ 1028              		.cfi_endproc
+ 1029              	.LFE3259:
+ 1031              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
+ 1032              		.align	1
+ 1033              		.p2align 2,,3
+ 1034              		.syntax unified
+ 1035              		.thumb
+ 1036              		.thumb_func
+ 1037              		.fpu fpv5-d16
+ 1039              	_GLOBAL__sub_I_hw:
+ 1040              	.LFB3315:
+ 131:slidingGuitar_motorDriver.cpp **** }
+ 1041              		.loc 8 131 1 is_stmt 1 view -0
+ 1042              		.cfi_startproc
+ 1043              		@ args = 0, pretend = 0, frame = 0
+ 1044              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1045              	.LBB551:
+ 1046              	.LBI551:
+ 1047              		.loc 8 131 1 view .LVU266
+ 1048              	.LVL55:
+ 1049              	.LBB552:
+ 1050              	.LBB553:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 52
+
+
+ 1051              	.LBI553:
   21:../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 841              		.loc 1 21 5 view .LVU186
- 842              	.LBB552:
- 843              	.LBB553:
- 844              	.LBI553:
- 845              		.file 11 "../libDaisy//src/per/qspi.h"
+ 1052              		.loc 1 21 5 view .LVU267
+ 1053              	.LBB554:
+ 1054              	.LBB555:
+ 1055              	.LBI555:
+ 1056              		.file 11 "../libDaisy//src/per/qspi.h"
    1:../libDaisy//src/per/qspi.h **** #ifndef DSY_QSPI
    2:../libDaisy//src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../libDaisy//src/per/qspi.h **** 
@@ -2758,9 +3099,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   29:../libDaisy//src/per/qspi.h ****     * IS25LP080D
   30:../libDaisy//src/per/qspi.h **** */
   31:../libDaisy//src/per/qspi.h **** class QSPIHandle
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 47
-
-
   32:../libDaisy//src/per/qspi.h **** {
   33:../libDaisy//src/per/qspi.h ****   public:
   34:../libDaisy//src/per/qspi.h ****     enum Result
@@ -2780,6 +3118,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   48:../libDaisy//src/per/qspi.h ****          */
   49:../libDaisy//src/per/qspi.h ****     enum Status
   50:../libDaisy//src/per/qspi.h ****     {
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 53
+
+
   51:../libDaisy//src/per/qspi.h ****         GOOD = 0,
   52:../libDaisy//src/per/qspi.h ****         E_HAL_ERROR,
   53:../libDaisy//src/per/qspi.h ****         E_SWITCHING_MODES,
@@ -2818,9 +3159,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   86:../libDaisy//src/per/qspi.h ****             Pin io1; /**< & */
   87:../libDaisy//src/per/qspi.h ****             Pin io2; /**< & */
   88:../libDaisy//src/per/qspi.h ****             Pin io3; /**< & */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 48
-
-
   89:../libDaisy//src/per/qspi.h ****             Pin clk; /**< & */
   90:../libDaisy//src/per/qspi.h ****             Pin ncs; /**< & */
   91:../libDaisy//src/per/qspi.h ****         } pin_config;
@@ -2840,6 +3178,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  105:../libDaisy//src/per/qspi.h ****     const Config& GetConfig() const;
  106:../libDaisy//src/per/qspi.h **** 
  107:../libDaisy//src/per/qspi.h ****     // Couldn't this just be called before anything else in init? That
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 54
+
+
  108:../libDaisy//src/per/qspi.h ****     // would make manually calling it unnecessary.
  109:../libDaisy//src/per/qspi.h ****     /**
  110:../libDaisy//src/per/qspi.h ****         Deinitializes the peripheral
@@ -2878,9 +3219,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  143:../libDaisy//src/per/qspi.h ****     Result Erase(uint32_t start_addr, uint32_t end_addr);
  144:../libDaisy//src/per/qspi.h **** 
  145:../libDaisy//src/per/qspi.h ****     /**
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 49
-
-
  146:../libDaisy//src/per/qspi.h ****          Erases a single sector of the chip.
  147:../libDaisy//src/per/qspi.h ****         TODO: Document the size of this function.
  148:../libDaisy//src/per/qspi.h ****         \param address Address of sector to erase
@@ -2900,23 +3238,26 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  162:../libDaisy//src/per/qspi.h ****      *  \param offset returns the pointer starting this
  163:../libDaisy//src/per/qspi.h ****      *                many bytes into the memory
  164:../libDaisy//src/per/qspi.h ****     */
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 55
+
+
  165:../libDaisy//src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  166:../libDaisy//src/per/qspi.h **** 
  167:../libDaisy//src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 846              		.loc 11 167 5 view .LVU187
- 847              		.loc 11 167 5 is_stmt 0 view .LVU188
- 848              	.LBE553:
- 849              	.LBB556:
- 850              	.LBI556:
+ 1057              		.loc 11 167 5 view .LVU268
+ 1058              		.loc 11 167 5 is_stmt 0 view .LVU269
+ 1059              	.LBE555:
+ 1060              	.LBB558:
+ 1061              	.LBI558:
   58:../libDaisy//src/per/qspi.h ****     {
- 851              		.loc 11 58 12 is_stmt 1 view .LVU189
- 852              	.LBB557:
- 853              	.LBI557:
+ 1062              		.loc 11 58 12 is_stmt 1 view .LVU270
+ 1063              	.LBB559:
+ 1064              	.LBI559:
   84:../libDaisy//src/per/qspi.h ****             Pin io0; /**< & */
- 854              		.loc 11 84 9 view .LVU190
- 855              	.LBB558:
- 856              	.LBI558:
- 857              		.file 12 "../libDaisy//src/daisy_core.h"
+ 1065              		.loc 11 84 9 view .LVU271
+ 1066              	.LBB560:
+ 1067              	.LBI560:
+ 1068              		.file 12 "../libDaisy//src/daisy_core.h"
    1:../libDaisy//src/daisy_core.h **** #pragma once
    2:../libDaisy//src/daisy_core.h **** #ifndef DSY_CORE_HW_H
    3:../libDaisy//src/daisy_core.h **** #define DSY_CORE_HW_H /**< & */
@@ -2938,9 +3279,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   19:../libDaisy//src/daisy_core.h ****     @{
   20:../libDaisy//src/daisy_core.h **** */
   21:../libDaisy//src/daisy_core.h **** 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 50
-
-
   22:../libDaisy//src/daisy_core.h **** /** Macro for area of memory that is configured as cacheless
   23:../libDaisy//src/daisy_core.h **** This should be used primarily for DMA buffers, and the like.
   24:../libDaisy//src/daisy_core.h **** */
@@ -2960,6 +3298,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   38:../libDaisy//src/daisy_core.h **** #define F2S8_SCALE 127.0f             /**< (2 ** 7) - 1 */
   39:../libDaisy//src/daisy_core.h **** #define S162F_SCALE 3.0517578125e-05f /**< 1 / (2** 15) */
   40:../libDaisy//src/daisy_core.h **** #define F2S16_SCALE 32767.0f          /**< (2 ** 15) - 1 */
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 56
+
+
   41:../libDaisy//src/daisy_core.h **** #define F2S24_SCALE 8388608.0f        /**< 2 ** 23 */
   42:../libDaisy//src/daisy_core.h **** #define S242F_SCALE 1.192092896e-07f  /**< 1 / (2 ** 23) */
   43:../libDaisy//src/daisy_core.h **** #define S24SIGN 0x800000              /**< 2 ** 23 */
@@ -2998,9 +3339,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   76:../libDaisy//src/daisy_core.h ****     \param x Number to be scaled.
   77:../libDaisy//src/daisy_core.h ****     \return Scaled number.
   78:../libDaisy//src/daisy_core.h **** */
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 51
-
-
   79:../libDaisy//src/daisy_core.h **** FORCE_INLINE float u82f(uint8_t x)
   80:../libDaisy//src/daisy_core.h **** {
   81:../libDaisy//src/daisy_core.h ****     return ((float)x - 127.f) * U82F_SCALE;
@@ -3020,6 +3358,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   95:../libDaisy//src/daisy_core.h **** /** 
   96:../libDaisy//src/daisy_core.h ****     Converts Signed 8-bit to float
   97:../libDaisy//src/daisy_core.h ****     \param x Number to be scaled.
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 57
+
+
   98:../libDaisy//src/daisy_core.h ****     \return Scaled number.
   99:../libDaisy//src/daisy_core.h **** */
  100:../libDaisy//src/daisy_core.h **** FORCE_INLINE float s82f(int8_t x)
@@ -3058,9 +3399,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  133:../libDaisy//src/daisy_core.h **** }
  134:../libDaisy//src/daisy_core.h **** 
  135:../libDaisy//src/daisy_core.h **** /**
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 52
-
-
  136:../libDaisy//src/daisy_core.h ****     Converts Signed 24-bit to float
  137:../libDaisy//src/daisy_core.h ****  */
  138:../libDaisy//src/daisy_core.h **** FORCE_INLINE float s242f(int32_t x)
@@ -3080,6 +3418,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  152:../libDaisy//src/daisy_core.h **** 
  153:../libDaisy//src/daisy_core.h **** /**
  154:../libDaisy//src/daisy_core.h ****     Converts Signed 32-bit to float
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 58
+
+
  155:../libDaisy//src/daisy_core.h ****  */
  156:../libDaisy//src/daisy_core.h **** FORCE_INLINE float s322f(int32_t x)
  157:../libDaisy//src/daisy_core.h **** {
@@ -3118,9 +3459,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  190:../libDaisy//src/daisy_core.h **** 
  191:../libDaisy//src/daisy_core.h **** /** @brief representation of hardware port/pin combination */
  192:../libDaisy//src/daisy_core.h **** struct Pin
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 53
-
-
  193:../libDaisy//src/daisy_core.h **** {
  194:../libDaisy//src/daisy_core.h ****     GPIOPort port;
  195:../libDaisy//src/daisy_core.h ****     uint8_t  pin;
@@ -3133,56 +3471,56 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  202:../libDaisy//src/daisy_core.h **** 
  203:../libDaisy//src/daisy_core.h ****     /** @brief Basic Constructor creates an invalid Pin object */
  204:../libDaisy//src/daisy_core.h ****     constexpr Pin() : port(PORTX), pin(255) {}
- 858              		.loc 12 204 15 view .LVU191
- 859              		.loc 12 204 15 is_stmt 0 view .LVU192
- 860              	.LBE558:
- 861              	.LBB559:
- 862              	.LBI559:
- 863              		.loc 12 204 15 is_stmt 1 view .LVU193
- 864              		.loc 12 204 15 is_stmt 0 view .LVU194
- 865              	.LBE559:
- 866              	.LBB560:
- 867              	.LBI560:
- 868              		.loc 12 204 15 is_stmt 1 view .LVU195
- 869              		.loc 12 204 15 is_stmt 0 view .LVU196
- 870              	.LBE560:
- 871              	.LBB561:
- 872              	.LBI561:
- 873              		.loc 12 204 15 is_stmt 1 view .LVU197
- 874              		.loc 12 204 15 is_stmt 0 view .LVU198
- 875              	.LBE561:
- 876              	.LBB562:
- 877              	.LBI562:
- 878              		.loc 12 204 15 is_stmt 1 view .LVU199
- 879              		.loc 12 204 15 is_stmt 0 view .LVU200
- 880              	.LBE562:
- 881              	.LBB563:
- 882              	.LBI563:
- 883              		.loc 12 204 15 is_stmt 1 view .LVU201
- 884              		.loc 12 204 15 is_stmt 0 view .LVU202
- 885              	.LBE563:
- 886              	.LBE557:
- 887              	.LBE556:
- 888              	.LBB564:
- 889              	.LBI564:
-  87:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 890              		.loc 6 87 5 is_stmt 1 view .LVU203
-  87:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 891              		.loc 6 87 5 is_stmt 0 view .LVU204
- 892              	.LBE564:
- 893              	.LBB567:
- 894              	.LBI567:
- 109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 895              		.loc 5 109 5 is_stmt 1 view .LVU205
- 109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 896              		.loc 5 109 5 is_stmt 0 view .LVU206
- 897              	.LBE567:
- 898              	.LBB568:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 54
+ 1069              		.loc 12 204 15 view .LVU272
+ 1070              		.loc 12 204 15 is_stmt 0 view .LVU273
+ 1071              	.LBE560:
+ 1072              	.LBB561:
+ 1073              	.LBI561:
+ 1074              		.loc 12 204 15 is_stmt 1 view .LVU274
+ 1075              		.loc 12 204 15 is_stmt 0 view .LVU275
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 59
 
 
- 899              	.LBI568:
- 900              		.file 13 "../libDaisy//src/per/dac.h"
+ 1076              	.LBE561:
+ 1077              	.LBB562:
+ 1078              	.LBI562:
+ 1079              		.loc 12 204 15 is_stmt 1 view .LVU276
+ 1080              		.loc 12 204 15 is_stmt 0 view .LVU277
+ 1081              	.LBE562:
+ 1082              	.LBB563:
+ 1083              	.LBI563:
+ 1084              		.loc 12 204 15 is_stmt 1 view .LVU278
+ 1085              		.loc 12 204 15 is_stmt 0 view .LVU279
+ 1086              	.LBE563:
+ 1087              	.LBB564:
+ 1088              	.LBI564:
+ 1089              		.loc 12 204 15 is_stmt 1 view .LVU280
+ 1090              		.loc 12 204 15 is_stmt 0 view .LVU281
+ 1091              	.LBE564:
+ 1092              	.LBB565:
+ 1093              	.LBI565:
+ 1094              		.loc 12 204 15 is_stmt 1 view .LVU282
+ 1095              		.loc 12 204 15 is_stmt 0 view .LVU283
+ 1096              	.LBE565:
+ 1097              	.LBE559:
+ 1098              	.LBE558:
+ 1099              	.LBB566:
+ 1100              	.LBI566:
+  87:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 1101              		.loc 6 87 5 is_stmt 1 view .LVU284
+  87:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 1102              		.loc 6 87 5 is_stmt 0 view .LVU285
+ 1103              	.LBE566:
+ 1104              	.LBB569:
+ 1105              	.LBI569:
+ 109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
+ 1106              		.loc 5 109 5 is_stmt 1 view .LVU286
+ 109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
+ 1107              		.loc 5 109 5 is_stmt 0 view .LVU287
+ 1108              	.LBE569:
+ 1109              	.LBB570:
+ 1110              	.LBI570:
+ 1111              		.file 13 "../libDaisy//src/per/dac.h"
    1:../libDaisy//src/per/dac.h **** #pragma once
    2:../libDaisy//src/per/dac.h **** #ifndef DSY_DAC_H
    3:../libDaisy//src/per/dac.h **** #define DSY_DAC_H
@@ -3200,6 +3538,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   15:../libDaisy//src/per/dac.h ****  ** For now connecting the DAC through other internal peripherals is also not supported.
   16:../libDaisy//src/per/dac.h ****  **
   17:../libDaisy//src/per/dac.h ****  ** Since the DAC channels have dedicated pins we don't need to pass in a pin config like with
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 60
+
+
   18:../libDaisy//src/per/dac.h ****  ** other modules. However, it is still important to not try to use the DAC pins for anything else.
   19:../libDaisy//src/per/dac.h ****  ** DAC Channel 1 is on PA4, and DAC Channel 2 is on PA5
   20:../libDaisy//src/per/dac.h ****  ***/
@@ -3238,9 +3579,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   53:../libDaisy//src/per/dac.h ****      ** The output range will be: 0V - VDDA
   54:../libDaisy//src/per/dac.h ****      ** The resolution will be roughly: bitdepth / (VDDA - 0V) 
   55:../libDaisy//src/per/dac.h ****      ***/
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 55
-
-
   56:../libDaisy//src/per/dac.h ****     enum class BitDepth
   57:../libDaisy//src/per/dac.h ****     {
   58:../libDaisy//src/per/dac.h ****         BITS_8,
@@ -3260,6 +3598,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   72:../libDaisy//src/per/dac.h ****         /** Target Samplerate in Hz used to configure the internal 
   73:../libDaisy//src/per/dac.h ****          ** timebase for DMA mode. Does nothing in POLLING mode.
   74:../libDaisy//src/per/dac.h ****          ** If the value is 0 at Init time this will default to 48000Hz 
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 61
+
+
   75:../libDaisy//src/per/dac.h ****          ** otherwise the driver will attempt meet the target.*/
   76:../libDaisy//src/per/dac.h ****         uint32_t target_samplerate;
   77:../libDaisy//src/per/dac.h **** 
@@ -3270,19 +3611,19 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   82:../libDaisy//src/per/dac.h ****     };
   83:../libDaisy//src/per/dac.h **** 
   84:../libDaisy//src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 901              		.loc 13 84 5 is_stmt 1 view .LVU207
- 902              		.loc 13 84 5 is_stmt 0 view .LVU208
- 903              	.LBE568:
- 904              	.LBB571:
- 905              	.LBI571:
+ 1112              		.loc 13 84 5 is_stmt 1 view .LVU288
+ 1113              		.loc 13 84 5 is_stmt 0 view .LVU289
+ 1114              	.LBE570:
+ 1115              	.LBB573:
+ 1116              	.LBI573:
   40:../libDaisy//src/hid/usb.h **** 
- 906              		.loc 4 40 5 is_stmt 1 view .LVU209
+ 1117              		.loc 4 40 5 is_stmt 1 view .LVU290
   40:../libDaisy//src/hid/usb.h **** 
- 907              		.loc 4 40 5 is_stmt 0 view .LVU210
- 908              	.LBE571:
- 909              	.LBB572:
- 910              	.LBI572:
- 911              		.file 14 "../libDaisy//src/per/gpio.h"
+ 1118              		.loc 4 40 5 is_stmt 0 view .LVU291
+ 1119              	.LBE573:
+ 1120              	.LBB574:
+ 1121              	.LBI574:
+ 1122              		.file 14 "../libDaisy//src/per/gpio.h"
    1:../libDaisy//src/per/gpio.h **** #pragma once
    2:../libDaisy//src/per/gpio.h **** #ifndef DSY_GPIO_H
    3:../libDaisy//src/per/gpio.h **** #define DSY_GPIO_H
@@ -3298,9 +3639,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   13:../libDaisy//src/per/gpio.h ****  *   
   14:../libDaisy//src/per/gpio.h ****  *  Button Input (with internal Pullup resistor)
   15:../libDaisy//src/per/gpio.h ****  *  @include GPIO_Input.cpp 
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 56
-
-
   16:../libDaisy//src/per/gpio.h ****  * 
   17:../libDaisy//src/per/gpio.h ****  *  Output Example (perfect for blinking an LED)
   18:../libDaisy//src/per/gpio.h ****  *  @include GPIO_Output.cpp
@@ -3320,6 +3658,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   32:../libDaisy//src/per/gpio.h **** 
   33:../libDaisy//src/per/gpio.h ****     /** @brief Configures whether an internal Pull up or Pull down resistor is used. 
   34:../libDaisy//src/per/gpio.h ****      *  
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 62
+
+
   35:../libDaisy//src/per/gpio.h ****      * Internal Pull up/down resistors are typically 40k ohms, and will be between
   36:../libDaisy//src/per/gpio.h ****      * 30k and 50k
   37:../libDaisy//src/per/gpio.h ****      * 
@@ -3358,88 +3699,88 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   70:../libDaisy//src/per/gpio.h ****         {
   71:../libDaisy//src/per/gpio.h ****         }
   72:../libDaisy//src/per/gpio.h ****     };
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 57
-
-
   73:../libDaisy//src/per/gpio.h **** 
   74:../libDaisy//src/per/gpio.h ****     GPIO() {}
- 912              		.loc 14 74 5 is_stmt 1 view .LVU211
- 913              	.LBB573:
- 914              	.LBB574:
- 915              	.LBI574:
+ 1123              		.loc 14 74 5 is_stmt 1 view .LVU292
+ 1124              	.LBB575:
+ 1125              	.LBB576:
+ 1126              	.LBI576:
   68:../libDaisy//src/per/gpio.h ****         : pin(), mode(Mode::INPUT), pull(Pull::NOPULL), speed(Speed::LOW)
- 916              		.loc 14 68 9 view .LVU212
- 917              	.LBB575:
- 918              	.LBB576:
- 919              	.LBB577:
- 920              	.LBI577:
- 921              		.loc 12 204 15 view .LVU213
- 922              		.loc 12 204 15 is_stmt 0 view .LVU214
- 923              	.LBE577:
- 924              	.LBE576:
- 925              	.LBE575:
- 926              	.LBE574:
- 927              	.LBE573:
- 928              	.LBE572:
- 929              	.LBB586:
- 930              	.LBI586:
- 931              		.loc 14 74 5 is_stmt 1 view .LVU215
- 932              	.LBB587:
- 933              	.LBB588:
- 934              	.LBI588:
+ 1127              		.loc 14 68 9 view .LVU293
+ 1128              	.LBB577:
+ 1129              	.LBB578:
+ 1130              	.LBB579:
+ 1131              	.LBI579:
+ 1132              		.loc 12 204 15 view .LVU294
+ 1133              		.loc 12 204 15 is_stmt 0 view .LVU295
+ 1134              	.LBE579:
+ 1135              	.LBE578:
+ 1136              	.LBE577:
+ 1137              	.LBE576:
+ 1138              	.LBE575:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 63
+
+
+ 1139              	.LBE574:
+ 1140              	.LBB588:
+ 1141              	.LBI588:
+ 1142              		.loc 14 74 5 is_stmt 1 view .LVU296
+ 1143              	.LBB589:
+ 1144              	.LBB590:
+ 1145              	.LBI590:
   68:../libDaisy//src/per/gpio.h ****         : pin(), mode(Mode::INPUT), pull(Pull::NOPULL), speed(Speed::LOW)
- 935              		.loc 14 68 9 view .LVU216
- 936              	.LBB589:
- 937              	.LBB590:
- 938              	.LBB591:
- 939              	.LBI591:
- 940              		.loc 12 204 15 view .LVU217
- 941              		.loc 12 204 15 is_stmt 0 view .LVU218
- 942              	.LBE591:
- 943              	.LBE590:
- 944              	.LBE589:
- 945              	.LBE588:
- 946              	.LBE587:
- 947              	.LBE586:
- 948              	.LBB600:
- 949              	.LBI600:
+ 1146              		.loc 14 68 9 view .LVU297
+ 1147              	.LBB591:
+ 1148              	.LBB592:
+ 1149              	.LBB593:
+ 1150              	.LBI593:
+ 1151              		.loc 12 204 15 view .LVU298
+ 1152              		.loc 12 204 15 is_stmt 0 view .LVU299
+ 1153              	.LBE593:
+ 1154              	.LBE592:
+ 1155              	.LBE591:
+ 1156              	.LBE590:
+ 1157              	.LBE589:
+ 1158              	.LBE588:
+ 1159              	.LBB602:
+ 1160              	.LBI602:
   96:../libDaisy//src/sys/system.h ****     ~System() {}
- 950              		.loc 3 96 5 is_stmt 1 view .LVU219
+ 1161              		.loc 3 96 5 is_stmt 1 view .LVU300
   96:../libDaisy//src/sys/system.h ****     ~System() {}
- 951              		.loc 3 96 5 is_stmt 0 view .LVU220
- 952              	.LBE600:
- 953              	.LBB601:
- 954              	.LBI601:
+ 1162              		.loc 3 96 5 is_stmt 0 view .LVU301
+ 1163              	.LBE602:
+ 1164              	.LBB603:
+ 1165              	.LBI603:
   20:../libDaisy//src/dev/codec_ak4556.h ****     ~Ak4556() {}
- 955              		.loc 2 20 5 is_stmt 1 view .LVU221
- 956              	.LBB602:
- 957              	.LBI602:
- 958              		.loc 14 74 5 view .LVU222
- 959              	.LBB603:
- 960              	.LBB604:
- 961              	.LBI604:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 58
-
-
+ 1166              		.loc 2 20 5 is_stmt 1 view .LVU302
+ 1167              	.LBB604:
+ 1168              	.LBI604:
+ 1169              		.loc 14 74 5 view .LVU303
+ 1170              	.LBB605:
+ 1171              	.LBB606:
+ 1172              	.LBI606:
   68:../libDaisy//src/per/gpio.h ****         : pin(), mode(Mode::INPUT), pull(Pull::NOPULL), speed(Speed::LOW)
- 962              		.loc 14 68 9 view .LVU223
- 963              	.LBB605:
- 964              	.LBB606:
- 965              	.LBB607:
- 966              	.LBI607:
- 967              		.loc 12 204 15 view .LVU224
- 968              		.loc 12 204 15 is_stmt 0 view .LVU225
- 969              	.LBE607:
- 970              	.LBE606:
- 971              	.LBE605:
- 972              	.LBE604:
- 973              	.LBE603:
- 974              	.LBE602:
- 975              	.LBE601:
- 976              	.LBB618:
- 977              	.LBI618:
- 978              		.file 15 "../libDaisy//src/per/sai.h"
+ 1173              		.loc 14 68 9 view .LVU304
+ 1174              	.LBB607:
+ 1175              	.LBB608:
+ 1176              	.LBB609:
+ 1177              	.LBI609:
+ 1178              		.loc 12 204 15 view .LVU305
+ 1179              		.loc 12 204 15 is_stmt 0 view .LVU306
+ 1180              	.LBE609:
+ 1181              	.LBE608:
+ 1182              	.LBE607:
+ 1183              	.LBE606:
+ 1184              	.LBE605:
+ 1185              	.LBE604:
+ 1186              	.LBE603:
+ 1187              	.LBB620:
+ 1188              	.LBI620:
+ 1189              		.file 15 "../libDaisy//src/per/sai.h"
    1:../libDaisy//src/per/sai.h **** #pragma once
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 64
+
+
    2:../libDaisy//src/per/sai.h **** #ifndef DSY_SAI_H
    3:../libDaisy//src/per/sai.h **** #define DSY_SAI_H
    4:../libDaisy//src/per/sai.h **** 
@@ -3478,9 +3819,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   37:../libDaisy//src/per/sai.h ****  *  // Then Initialize
   38:../libDaisy//src/per/sai.h ****  *  SaiHandle sai;
   39:../libDaisy//src/per/sai.h ****  *  sai.Init(sai_config);
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 59
-
-
   40:../libDaisy//src/per/sai.h ****  *  // Now you can use it:
   41:../libDaisy//src/per/sai.h ****  *  sai.StartDma(. . .);
   42:../libDaisy//src/per/sai.h ****  */
@@ -3500,6 +3838,9 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   56:../libDaisy//src/per/sai.h ****         /** Rate at which samples will be streaming to/from the device. */
   57:../libDaisy//src/per/sai.h ****         enum class SampleRate
   58:../libDaisy//src/per/sai.h ****         {
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 65
+
+
   59:../libDaisy//src/per/sai.h ****             SAI_8KHZ,
   60:../libDaisy//src/per/sai.h ****             SAI_16KHZ,
   61:../libDaisy//src/per/sai.h ****             SAI_32KHZ,
@@ -3538,9 +3879,6 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
   94:../libDaisy//src/per/sai.h ****         {
   95:../libDaisy//src/per/sai.h ****             Pin mclk, fs, sck, sa, sb;
   96:../libDaisy//src/per/sai.h ****         } pin_config;
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 60
-
-
   97:../libDaisy//src/per/sai.h ****         SampleRate sr;
   98:../libDaisy//src/per/sai.h ****         BitDepth   bit_depth;
   99:../libDaisy//src/per/sai.h ****         Sync       a_sync, b_sync;
@@ -3555,426 +3893,469 @@ ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 1
  108:../libDaisy//src/per/sai.h ****     };
  109:../libDaisy//src/per/sai.h **** 
  110:../libDaisy//src/per/sai.h ****     SaiHandle() : pimpl_(nullptr) {}
- 979              		.loc 15 110 5 is_stmt 1 view .LVU226
- 980              	.LBE618:
- 981              	.LBE552:
- 982              	.LBE551:
- 983              	.LBE550:
- 984              	.LBE549:
- 985              		.loc 8 69 1 is_stmt 0 view .LVU227
- 986 0000 70B5     		push	{r4, r5, r6, lr}
- 987              		.cfi_def_cfa_offset 16
- 988              		.cfi_offset 4, -16
- 989              		.cfi_offset 5, -12
- 990              		.cfi_offset 6, -8
- 991              		.cfi_offset 14, -4
- 992              	.LBB662:
- 993              	.LBB660:
- 994              	.LBB634:
- 995              	.LBB631:
- 996              	.LBB621:
- 997              	.LBB554:
- 998              	.LBB555:
- 999              		.loc 11 167 34 view .LVU228
- 1000 0002 1D48     		ldr	r0, .L54
- 1001 0004 0026     		movs	r6, #0
- 1002              	.LBE555:
- 1003              	.LBE554:
- 1004              	.LBE621:
+ 1190              		.loc 15 110 5 is_stmt 1 view .LVU307
+ 1191              	.LBE620:
+ 1192              	.LBE554:
+ 1193              	.LBE553:
+ 1194              	.LBE552:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 66
+
+
+ 1195              	.LBE551:
+ 1196              		.loc 8 131 1 is_stmt 0 view .LVU308
+ 1197 0000 70B5     		push	{r4, r5, r6, lr}
+ 1198              		.cfi_def_cfa_offset 16
+ 1199              		.cfi_offset 4, -16
+ 1200              		.cfi_offset 5, -12
+ 1201              		.cfi_offset 6, -8
+ 1202              		.cfi_offset 14, -4
+ 1203              	.LBB664:
+ 1204              	.LBB662:
+ 1205              	.LBB636:
+ 1206              	.LBB633:
+ 1207              	.LBB623:
+ 1208              	.LBB556:
+ 1209              	.LBB557:
+ 1210              		.loc 11 167 34 view .LVU309
+ 1211 0002 1D48     		ldr	r0, .L63
+ 1212 0004 0026     		movs	r6, #0
+ 1213              	.LBE557:
+ 1214              	.LBE556:
+ 1215              	.LBE623:
   21:../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 1005              		.loc 1 21 17 view .LVU229
- 1006 0006 4FF60B73 		movw	r3, #65291
- 1007 000a 6FF0F411 		mvn	r1, #15991028
- 1008              	.LBE631:
- 1009              	.LBE634:
- 1010              	.LBB635:
- 1011              	.LBB636:
- 1012              	.LBB637:
- 1013              	.LBB638:
- 1014              	.LBB639:
- 1015              	.LBB640:
+ 1216              		.loc 1 21 17 view .LVU310
+ 1217 0006 4FF60B73 		movw	r3, #65291
+ 1218 000a 6FF0F411 		mvn	r1, #15991028
+ 1219              	.LBE633:
+ 1220              	.LBE636:
+ 1221              	.LBB637:
+ 1222              	.LBB638:
+ 1223              	.LBB639:
+ 1224              	.LBB640:
+ 1225              	.LBB641:
+ 1226              	.LBB642:
   15:../libDaisy//src/util/FIFO.h ****     {
- 1016              		.loc 7 15 75 view .LVU230
- 1017 000e 1B4D     		ldr	r5, .L54+4
- 1018              	.LBE640:
- 1019              	.LBE639:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 61
-
-
- 1020              	.LBE638:
- 1021              	.LBE637:
- 1022              	.LBE636:
- 1023              	.LBE635:
+ 1227              		.loc 7 15 75 view .LVU311
+ 1228 000e 1B4D     		ldr	r5, .L63+4
+ 1229              	.LBE642:
+ 1230              	.LBE641:
+ 1231              	.LBE640:
+ 1232              	.LBE639:
+ 1233              	.LBE638:
+ 1234              	.LBE637:
    5:slidingGuitar_motorDriver.cpp **** // for serial read:
- 1024              		.loc 8 5 11 view .LVU231
- 1025 0010 1B4A     		ldr	r2, .L54+8
- 1026              	.LBB657:
- 1027              	.LBB632:
+ 1235              		.loc 8 5 11 view .LVU312
+ 1236 0010 1B4A     		ldr	r2, .L63+8
+ 1237              	.LBB659:
+ 1238              	.LBB634:
   21:../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 1028              		.loc 1 21 17 view .LVU232
- 1029 0012 8365     		str	r3, [r0, #88]
- 1030 0014 05F11C04 		add	r4, r5, #28
- 1031              	.LBB622:
- 1032              	.LBB565:
- 1033              	.LBB566:
+ 1239              		.loc 1 21 17 view .LVU313
+ 1240 0012 8365     		str	r3, [r0, #88]
+ 1241 0014 05F11C04 		add	r4, r5, #28
+ 1242              	.LBB624:
+ 1243              	.LBB567:
+ 1244              	.LBB568:
   87:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 1034              		.loc 6 87 35 view .LVU233
- 1035 0018 4661     		str	r6, [r0, #20]
- 1036              	.LBE566:
- 1037              	.LBE565:
- 1038              	.LBE622:
- 1039              	.LBB623:
- 1040              	.LBB569:
- 1041              	.LBB570:
- 1042              		.loc 13 84 33 view .LVU234
- 1043 001a 0662     		str	r6, [r0, #32]
- 1044              	.LBE570:
- 1045              	.LBE569:
- 1046              	.LBE623:
- 1047              	.LBB624:
- 1048              	.LBB616:
- 1049              	.LBB614:
- 1050              	.LBB612:
- 1051              	.LBB610:
- 1052              	.LBB608:
+ 1245              		.loc 6 87 35 view .LVU314
+ 1246 0018 4661     		str	r6, [r0, #20]
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 67
+
+
+ 1247              	.LBE568:
+ 1248              	.LBE567:
+ 1249              	.LBE624:
+ 1250              	.LBB625:
+ 1251              	.LBB571:
+ 1252              	.LBB572:
+ 1253              		.loc 13 84 33 view .LVU315
+ 1254 001a 0662     		str	r6, [r0, #32]
+ 1255              	.LBE572:
+ 1256              	.LBE571:
+ 1257              	.LBE625:
+ 1258              	.LBB626:
+ 1259              	.LBB618:
+ 1260              	.LBB616:
+ 1261              	.LBB614:
+ 1262              	.LBB612:
+ 1263              	.LBB610:
   69:../libDaisy//src/per/gpio.h ****         {
- 1053              		.loc 14 69 73 view .LVU235
- 1054 001c 4666     		str	r6, [r0, #100]
- 1055              	.LBE608:
- 1056              	.LBE610:
- 1057              	.LBE612:
- 1058              	.LBE614:
- 1059              	.LBE616:
- 1060              	.LBE624:
- 1061              	.LBB625:
- 1062              	.LBB619:
- 1063              	.LBB620:
- 1064              		.loc 15 110 33 view .LVU236
- 1065 001e 0667     		str	r6, [r0, #112]
- 1066              	.LVL51:
- 1067              		.loc 15 110 33 view .LVU237
- 1068              	.LBE620:
- 1069              	.LBE619:
- 1070              	.LBE625:
+ 1264              		.loc 14 69 73 view .LVU316
+ 1265 001c 4666     		str	r6, [r0, #100]
+ 1266              	.LBE610:
+ 1267              	.LBE612:
+ 1268              	.LBE614:
+ 1269              	.LBE616:
+ 1270              	.LBE618:
+ 1271              	.LBE626:
+ 1272              	.LBB627:
+ 1273              	.LBB621:
+ 1274              	.LBB622:
+ 1275              		.loc 15 110 33 view .LVU317
+ 1276 001e 0667     		str	r6, [r0, #112]
+ 1277              	.LVL56:
+ 1278              		.loc 15 110 33 view .LVU318
+ 1279              	.LBE622:
+ 1280              	.LBE621:
+ 1281              	.LBE627:
   21:../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 1071              		.loc 1 21 17 view .LVU238
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 62
-
-
- 1072 0020 C0E90061 		strd	r6, r1, [r0]
- 1073 0024 C0E90211 		strd	r1, r1, [r0, #8]
- 1074              	.LBB626:
- 1075              	.LBB584:
- 1076              	.LBB582:
- 1077              	.LBB580:
- 1078              	.LBB578:
+ 1282              		.loc 1 21 17 view .LVU319
+ 1283 0020 C0E90061 		strd	r6, r1, [r0]
+ 1284 0024 C0E90211 		strd	r1, r1, [r0, #8]
+ 1285              	.LBB628:
+ 1286              	.LBB586:
+ 1287              	.LBB584:
+ 1288              	.LBB582:
+ 1289              	.LBB580:
   69:../libDaisy//src/per/gpio.h ****         {
- 1079              		.loc 14 69 73 view .LVU239
- 1080 0028 C0E90A36 		strd	r3, r6, [r0, #40]
- 1081              	.LBE578:
- 1082              	.LBE580:
- 1083              	.LBE582:
- 1084              	.LBE584:
- 1085              	.LBE626:
- 1086              	.LBB627:
- 1087              	.LBB598:
- 1088              	.LBB596:
- 1089              	.LBB594:
- 1090              	.LBB592:
- 1091 002c C0E90F36 		strd	r3, r6, [r0, #60]
- 1092              	.LBE592:
- 1093              	.LBE594:
- 1094              	.LBE596:
- 1095              	.LBE598:
- 1096              	.LBE627:
- 1097              	.LBE632:
- 1098              	.LBE657:
+ 1290              		.loc 14 69 73 view .LVU320
+ 1291 0028 C0E90A36 		strd	r3, r6, [r0, #40]
+ 1292              	.LBE580:
+ 1293              	.LBE582:
+ 1294              	.LBE584:
+ 1295              	.LBE586:
+ 1296              	.LBE628:
+ 1297              	.LBB629:
+ 1298              	.LBB600:
+ 1299              	.LBB598:
+ 1300              	.LBB596:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 68
+
+
+ 1301              	.LBB594:
+ 1302 002c C0E90F36 		strd	r3, r6, [r0, #60]
+ 1303              	.LBE594:
+ 1304              	.LBE596:
+ 1305              	.LBE598:
+ 1306              	.LBE600:
+ 1307              	.LBE629:
+ 1308              	.LBE634:
+ 1309              	.LBE659:
    5:slidingGuitar_motorDriver.cpp **** // for serial read:
- 1099              		.loc 8 5 11 view .LVU240
- 1100 0030 1449     		ldr	r1, .L54+12
- 1101              	.LBB658:
- 1102              	.LBB633:
- 1103              	.LBB628:
- 1104              	.LBB585:
- 1105              	.LBB583:
- 1106              	.LBB581:
- 1107              	.LBB579:
+ 1310              		.loc 8 5 11 view .LVU321
+ 1311 0030 1449     		ldr	r1, .L63+12
+ 1312              	.LBB660:
+ 1313              	.LBB635:
+ 1314              	.LBB630:
+ 1315              	.LBB587:
+ 1316              	.LBB585:
+ 1317              	.LBB583:
+ 1318              	.LBB581:
   69:../libDaisy//src/per/gpio.h ****         {
- 1108              		.loc 14 69 73 view .LVU241
- 1109 0032 C0E90C66 		strd	r6, r6, [r0, #48]
- 1110              	.LBE579:
- 1111              	.LBE581:
- 1112              	.LBE583:
- 1113              	.LBE585:
- 1114              	.LBE628:
- 1115              	.LBB629:
- 1116              	.LBB599:
- 1117              	.LBB597:
- 1118              	.LBB595:
- 1119              	.LBB593:
- 1120 0036 C0E91166 		strd	r6, r6, [r0, #68]
- 1121              	.LBE593:
- 1122              	.LBE595:
- 1123              	.LBE597:
- 1124              	.LBE599:
- 1125              	.LBE629:
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 63
-
-
- 1126              	.LBB630:
- 1127              	.LBB617:
- 1128              	.LBB615:
- 1129              	.LBB613:
- 1130              	.LBB611:
- 1131              	.LBB609:
- 1132 003a C0E91766 		strd	r6, r6, [r0, #92]
- 1133              	.LBE609:
- 1134              	.LBE611:
- 1135              	.LBE613:
- 1136              	.LBE615:
- 1137              	.LBE617:
- 1138              	.LBE630:
- 1139              	.LBE633:
- 1140              	.LBE658:
+ 1319              		.loc 14 69 73 view .LVU322
+ 1320 0032 C0E90C66 		strd	r6, r6, [r0, #48]
+ 1321              	.LBE581:
+ 1322              	.LBE583:
+ 1323              	.LBE585:
+ 1324              	.LBE587:
+ 1325              	.LBE630:
+ 1326              	.LBB631:
+ 1327              	.LBB601:
+ 1328              	.LBB599:
+ 1329              	.LBB597:
+ 1330              	.LBB595:
+ 1331 0036 C0E91166 		strd	r6, r6, [r0, #68]
+ 1332              	.LBE595:
+ 1333              	.LBE597:
+ 1334              	.LBE599:
+ 1335              	.LBE601:
+ 1336              	.LBE631:
+ 1337              	.LBB632:
+ 1338              	.LBB619:
+ 1339              	.LBB617:
+ 1340              	.LBB615:
+ 1341              	.LBB613:
+ 1342              	.LBB611:
+ 1343 003a C0E91766 		strd	r6, r6, [r0, #92]
+ 1344              	.LBE611:
+ 1345              	.LBE613:
+ 1346              	.LBE615:
+ 1347              	.LBE617:
+ 1348              	.LBE619:
+ 1349              	.LBE632:
+ 1350              	.LBE635:
+ 1351              	.LBE660:
    5:slidingGuitar_motorDriver.cpp **** // for serial read:
- 1141              		.loc 8 5 11 view .LVU242
- 1142 003e FFF7FEFF 		bl	__aeabi_atexit
- 1143              	.LVL52:
- 1144              	.LBB659:
- 1145              	.LBI635:
+ 1352              		.loc 8 5 11 view .LVU323
+ 1353 003e FFF7FEFF 		bl	__aeabi_atexit
+ 1354              	.LVL57:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 69
+
+
+ 1355              	.LBB661:
+ 1356              	.LBI637:
  299:../libDaisy//src/util/FIFO.h **** {
  300:../libDaisy//src/util/FIFO.h ****   public:
  301:../libDaisy//src/util/FIFO.h ****     /** Creates an empty FIFO */
  302:../libDaisy//src/util/FIFO.h ****     FIFO() : FIFOBase<T>(buffer_, capacity + 1) {}
- 1146              		.loc 7 302 5 is_stmt 1 view .LVU243
- 1147              	.LBB656:
- 1148              	.LBB655:
- 1149              	.LBB645:
- 1150              	.LBI638:
+ 1357              		.loc 7 302 5 is_stmt 1 view .LVU324
+ 1358              	.LBB658:
+ 1359              	.LBB657:
+ 1360              	.LBB647:
+ 1361              	.LBI640:
   14:../libDaisy//src/util/FIFO.h ****     : buffer_(buffer), bufferSize_(bufferSize), bufferIn_(0), bufferOut_(0)
- 1151              		.loc 7 14 5 view .LVU244
- 1152              	.LBB643:
- 1153              	.LBB641:
+ 1362              		.loc 7 14 5 view .LVU325
+ 1363              	.LBB645:
+ 1364              	.LBB643:
   15:../libDaisy//src/util/FIFO.h ****     {
- 1154              		.loc 7 15 75 is_stmt 0 view .LVU245
- 1155 0042 05F11003 		add	r3, r5, #16
- 1156 0046 1122     		movs	r2, #17
- 1157 0048 EE60     		str	r6, [r5, #12]
- 1158              	.LVL53:
+ 1365              		.loc 7 15 75 is_stmt 0 view .LVU326
+ 1366 0042 05F11003 		add	r3, r5, #16
+ 1367 0046 1122     		movs	r2, #17
+ 1368 0048 EE60     		str	r6, [r5, #12]
+ 1369              	.LVL58:
   15:../libDaisy//src/util/FIFO.h ****     {
- 1159              		.loc 7 15 75 view .LVU246
- 1160              	.LBE641:
- 1161              	.LBE643:
- 1162              	.LBE645:
- 1163              		.loc 7 302 47 is_stmt 1 view .LVU247
- 1164              	.LBB646:
- 1165              	.LBB644:
- 1166              	.LBB642:
+ 1370              		.loc 7 15 75 view .LVU327
+ 1371              	.LBE643:
+ 1372              	.LBE645:
+ 1373              	.LBE647:
+ 1374              		.loc 7 302 47 is_stmt 1 view .LVU328
+ 1375              	.LBB648:
+ 1376              	.LBB646:
+ 1377              	.LBB644:
   15:../libDaisy//src/util/FIFO.h ****     {
- 1167              		.loc 7 15 75 is_stmt 0 view .LVU248
- 1168 004a 2B60     		str	r3, [r5]
- 1169 004c C5E90126 		strd	r2, r6, [r5, #4]
- 1170 0050 05F6AC15 		addw	r5, r5, #2476
- 1171              	.L51:
- 1172              	.LVL54:
+ 1378              		.loc 7 15 75 is_stmt 0 view .LVU329
+ 1379 004a 2B60     		str	r3, [r5]
+ 1380 004c C5E90126 		strd	r2, r6, [r5, #4]
+ 1381 0050 05F6AC15 		addw	r5, r5, #2476
+ 1382              	.L60:
+ 1383              	.LVL59:
   15:../libDaisy//src/util/FIFO.h ****     {
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 64
-
-
- 1173              		.loc 7 15 75 view .LVU249
- 1174              	.LBE642:
- 1175              	.LBE644:
- 1176              	.LBE646:
- 1177              	.LBB647:
- 1178              	.LBI647:
+ 1384              		.loc 7 15 75 view .LVU330
+ 1385              	.LBE644:
+ 1386              	.LBE646:
+ 1387              	.LBE648:
+ 1388              	.LBB649:
+ 1389              	.LBI649:
  492:../libDaisy//src/util/FixedCapStr.h ****     : FixedCapStrBase<CharType>(buffer_, capacity)
- 1179              		.loc 9 492 15 is_stmt 1 view .LVU250
- 1180              	.LBB648:
- 1181              	.LBB649:
- 1182              	.LBI649:
+ 1390              		.loc 9 492 15 is_stmt 1 view .LVU331
+ 1391              	.LBB650:
+ 1392              	.LBB651:
+ 1393              	.LBI651:
   16:../libDaisy//src/util/FixedCapStr.h ****     : capacity_(capacity), buffer_(buffer)
- 1183              		.loc 9 16 15 view .LVU251
- 1184              	.LBB650:
+ 1394              		.loc 9 16 15 view .LVU332
+ 1395              	.LBB652:
   17:../libDaisy//src/util/FixedCapStr.h ****     {
- 1185              		.loc 9 17 42 is_stmt 0 view .LVU252
- 1186 0054 0021     		movs	r1, #0
- 1187 0056 8023     		movs	r3, #128
- 1188              	.LBE650:
- 1189              	.LBE649:
+ 1396              		.loc 9 17 42 is_stmt 0 view .LVU333
+ 1397 0054 0021     		movs	r1, #0
+ 1398 0056 8023     		movs	r3, #128
+ 1399              	.LBE652:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 70
+
+
+ 1400              	.LBE651:
  493:../libDaisy//src/util/FixedCapStr.h ****     {
- 1190              		.loc 9 493 50 view .LVU253
- 1191 0058 2046     		mov	r0, r4
- 1192 005a 8122     		movs	r2, #129
- 1193              	.LBB652:
- 1194              	.LBB651:
+ 1401              		.loc 9 493 50 view .LVU334
+ 1402 0058 2046     		mov	r0, r4
+ 1403 005a 8122     		movs	r2, #129
+ 1404              	.LBB654:
+ 1405              	.LBB653:
   17:../libDaisy//src/util/FixedCapStr.h ****     {
- 1195              		.loc 9 17 42 view .LVU254
- 1196 005c 04E91A00 		stmdb	r4, {r1, r3, r4}
- 1197              	.LBE651:
- 1198              	.LBE652:
- 1199              	.LBE648:
- 1200              	.LBE647:
- 1201              		.loc 7 302 47 view .LVU255
- 1202 0060 9034     		adds	r4, r4, #144
- 1203              	.LVL55:
- 1204              	.LBB654:
- 1205              	.LBB653:
+ 1406              		.loc 9 17 42 view .LVU335
+ 1407 005c 04E91A00 		stmdb	r4, {r1, r3, r4}
+ 1408              	.LBE653:
+ 1409              	.LBE654:
+ 1410              	.LBE650:
+ 1411              	.LBE649:
+ 1412              		.loc 7 302 47 view .LVU336
+ 1413 0060 9034     		adds	r4, r4, #144
+ 1414              	.LVL60:
+ 1415              	.LBB656:
+ 1416              	.LBB655:
  493:../libDaisy//src/util/FixedCapStr.h ****     {
- 1206              		.loc 9 493 50 view .LVU256
- 1207 0062 FFF7FEFF 		bl	memset
- 1208              	.LVL56:
+ 1417              		.loc 9 493 50 view .LVU337
+ 1418 0062 FFF7FEFF 		bl	memset
+ 1419              	.LVL61:
  493:../libDaisy//src/util/FixedCapStr.h ****     {
- 1209              		.loc 9 493 50 view .LVU257
- 1210              	.LBE653:
- 1211              	.LBE654:
- 1212              		.loc 7 302 47 is_stmt 1 view .LVU258
- 1213              		.loc 7 302 47 view .LVU259
- 1214 0066 AC42     		cmp	r4, r5
- 1215 0068 F4D1     		bne	.L51
- 1216              	.LVL57:
- 1217              		.loc 7 302 47 is_stmt 0 view .LVU260
- 1218              	.LBE655:
- 1219              	.LBE656:
- 1220              	.LBE659:
+ 1420              		.loc 9 493 50 view .LVU338
+ 1421              	.LBE655:
+ 1422              	.LBE656:
+ 1423              		.loc 7 302 47 is_stmt 1 view .LVU339
+ 1424              		.loc 7 302 47 view .LVU340
+ 1425 0066 AC42     		cmp	r4, r5
+ 1426 0068 F4D1     		bne	.L60
+ 1427              	.LVL62:
+ 1428              		.loc 7 302 47 is_stmt 0 view .LVU341
+ 1429              	.LBE657:
+ 1430              	.LBE658:
+ 1431              	.LBE661:
    8:slidingGuitar_motorDriver.cpp **** 
- 1221              		.loc 8 8 28 view .LVU261
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 65
-
-
- 1222 006a 054A     		ldr	r2, .L54+8
- 1223 006c 0649     		ldr	r1, .L54+16
- 1224 006e 0348     		ldr	r0, .L54+4
- 1225              	.LBE660:
- 1226              	.LBE662:
- 1227              		.loc 8 69 1 view .LVU262
- 1228 0070 BDE87040 		pop	{r4, r5, r6, lr}
- 1229              		.cfi_restore 14
- 1230              		.cfi_restore 6
- 1231              		.cfi_restore 5
- 1232              		.cfi_restore 4
- 1233              		.cfi_def_cfa_offset 0
- 1234              	.LVL58:
- 1235              	.LBB663:
- 1236              	.LBB661:
+ 1432              		.loc 8 8 28 view .LVU342
+ 1433 006a 054A     		ldr	r2, .L63+8
+ 1434 006c 0649     		ldr	r1, .L63+16
+ 1435 006e 0348     		ldr	r0, .L63+4
+ 1436              	.LBE662:
+ 1437              	.LBE664:
+ 1438              		.loc 8 131 1 view .LVU343
+ 1439 0070 BDE87040 		pop	{r4, r5, r6, lr}
+ 1440              		.cfi_restore 14
+ 1441              		.cfi_restore 6
+ 1442              		.cfi_restore 5
+ 1443              		.cfi_restore 4
+ 1444              		.cfi_def_cfa_offset 0
+ 1445              	.LVL63:
+ 1446              	.LBB665:
+ 1447              	.LBB663:
    8:slidingGuitar_motorDriver.cpp **** 
- 1237              		.loc 8 8 28 view .LVU263
- 1238 0074 FFF7FEBF 		b	__aeabi_atexit
- 1239              	.LVL59:
- 1240              	.L55:
- 1241              		.align	2
- 1242              	.L54:
- 1243 0078 00000000 		.word	.LANCHOR1
- 1244 007c 00000000 		.word	.LANCHOR0
- 1245 0080 00000000 		.word	__dso_handle
- 1246 0084 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
- 1247 0088 00000000 		.word	_ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev
- 1248              	.LBE661:
- 1249              	.LBE663:
- 1250              		.cfi_endproc
- 1251              	.LFE3313:
- 1253              		.section	.init_array,"aw",%init_array
- 1254              		.align	2
- 1255 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 1256              		.global	msg_fifo
- 1257              		.global	hw
- 1258              		.section	.bss.hw,"aw",%nobits
- 1259              		.align	2
- 1260              		.set	.LANCHOR1,. + 0
- 1263              	hw:
- 1264 0000 00000000 		.space	116
- 1264      00000000 
- 1264      00000000 
- 1264      00000000 
- 1264      00000000 
- 1265              		.section	.bss.msg_fifo,"aw",%nobits
- 1266              		.align	2
- 1267              		.set	.LANCHOR0,. + 0
- 1270              	msg_fifo:
- 1271 0000 00000000 		.space	2464
- 1271      00000000 
- 1271      00000000 
- 1271      00000000 
- 1271      00000000 
- 1272              		.text
- 1273              	.Letext0:
- 1274              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 66
+ 1448              		.loc 8 8 28 view .LVU344
+ 1449 0074 FFF7FEBF 		b	__aeabi_atexit
+ 1450              	.LVL64:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 71
 
 
- 1275              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1276              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
- 1277              		.file 19 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
- 1278              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
- 1279              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
- 1280              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
- 1281              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
- 1282              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
- 1283              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
- 1284              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
- 1285              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
- 1286              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
- 1287              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
- 1288              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\uses_alloc
- 1289              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\tuple"
- 1290              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\functional"
- 1291              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
- 1292              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
- 1293              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
- 1294              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstddef"
- 1295              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\initializer_list
- 1296              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
- 1297              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
- 1298              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
- 1299              		.file 41 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
- 1300              		.file 42 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
- 1301              		.file 43 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
- 1302              		.file 44 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
- 1303              		.file 45 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
- 1304              		.file 46 "../libDaisy//src/per/tim.h"
- 1305              		.file 47 "../libDaisy//src/hid/logger_impl.h"
- 1306              		.file 48 "../libDaisy//src/dev/max11300.h"
- 1307              		.file 49 "../libDaisy//src/dev/sr_595.h"
- 1308              		.file 50 "../libDaisy//src/util/wav_format.h"
- 1309              		.file 51 "../libDaisy//src/hid/logger.h"
- 1310              		.file 52 "../libDaisy//src/dev/sdram.h"
- 1311              		.file 53 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
- 1312              		.file 54 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
- 1313              		.file 55 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
- 1314              		.file 56 "../libDaisy//Middlewares/Third_Party/FatFs/src/integer.h"
- 1315              		.file 57 "../libDaisy//Middlewares/Third_Party/FatFs/src/ff.h"
- 1316              		.file 58 "<built-in>"
-ARM GAS  C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s 			page 67
+ 1451              	.L64:
+ 1452              		.align	2
+ 1453              	.L63:
+ 1454 0078 00000000 		.word	.LANCHOR2
+ 1455 007c 00000000 		.word	.LANCHOR0
+ 1456 0080 00000000 		.word	__dso_handle
+ 1457 0084 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
+ 1458 0088 00000000 		.word	_ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev
+ 1459              	.LBE663:
+ 1460              	.LBE665:
+ 1461              		.cfi_endproc
+ 1462              	.LFE3315:
+ 1464              		.section	.init_array,"aw",%init_array
+ 1465              		.align	2
+ 1466 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
+ 1467              		.global	goal_ticks
+ 1468              		.global	current_ticks
+ 1469              		.global	htim2
+ 1470              		.global	msg_fifo
+ 1471              		.global	hw
+ 1472              		.section	.bss.current_ticks,"aw",%nobits
+ 1473              		.align	2
+ 1476              	current_ticks:
+ 1477 0000 00000000 		.space	4
+ 1478              		.section	.bss.goal_ticks,"aw",%nobits
+ 1479              		.align	2
+ 1482              	goal_ticks:
+ 1483 0000 00000000 		.space	4
+ 1484              		.section	.bss.htim2,"aw",%nobits
+ 1485              		.align	2
+ 1486              		.set	.LANCHOR1,. + 0
+ 1489              	htim2:
+ 1490 0000 00000000 		.space	76
+ 1490      00000000 
+ 1490      00000000 
+ 1490      00000000 
+ 1490      00000000 
+ 1491              		.section	.bss.hw,"aw",%nobits
+ 1492              		.align	2
+ 1493              		.set	.LANCHOR2,. + 0
+ 1496              	hw:
+ 1497 0000 00000000 		.space	116
+ 1497      00000000 
+ 1497      00000000 
+ 1497      00000000 
+ 1497      00000000 
+ 1498              		.section	.bss.msg_fifo,"aw",%nobits
+ 1499              		.align	2
+ 1500              		.set	.LANCHOR0,. + 0
+ 1503              	msg_fifo:
+ 1504 0000 00000000 		.space	2464
+ 1504      00000000 
+ 1504      00000000 
+ 1504      00000000 
+ 1504      00000000 
+ 1505              		.text
+ 1506              	.Letext0:
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 72
+
+
+ 1507              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 1508              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 1509              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
+ 1510              		.file 19 "../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h"
+ 1511              		.file 20 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
+ 1512              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
+ 1513              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
+ 1514              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
+ 1515              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
+ 1516              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
+ 1517              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
+ 1518              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
+ 1519              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
+ 1520              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
+ 1521              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
+ 1522              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\uses_alloc
+ 1523              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\tuple"
+ 1524              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\functional"
+ 1525              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
+ 1526              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
+ 1527              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
+ 1528              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstddef"
+ 1529              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\initializer_list
+ 1530              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
+ 1531              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
+ 1532              		.file 41 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
+ 1533              		.file 42 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
+ 1534              		.file 43 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
+ 1535              		.file 44 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
+ 1536              		.file 45 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
+ 1537              		.file 46 "../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h"
+ 1538              		.file 47 "../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h"
+ 1539              		.file 48 "../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h"
+ 1540              		.file 49 "../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h"
+ 1541              		.file 50 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
+ 1542              		.file 51 "../libDaisy//src/per/tim.h"
+ 1543              		.file 52 "../libDaisy//src/hid/logger_impl.h"
+ 1544              		.file 53 "../libDaisy//src/dev/max11300.h"
+ 1545              		.file 54 "../libDaisy//src/dev/sr_595.h"
+ 1546              		.file 55 "../libDaisy//src/util/wav_format.h"
+ 1547              		.file 56 "../libDaisy//src/hid/logger.h"
+ 1548              		.file 57 "../libDaisy//src/dev/sdram.h"
+ 1549              		.file 58 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
+ 1550              		.file 59 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
+ 1551              		.file 60 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
+ 1552              		.file 61 "../libDaisy//Middlewares/Third_Party/FatFs/src/integer.h"
+ 1553              		.file 62 "../libDaisy//Middlewares/Third_Party/FatFs/src/ff.h"
+ 1554              		.file 63 "<built-in>"
+ARM GAS  C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s 			page 73
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 slidingGuitar_motorDriver.cpp
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:73     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:81     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:81     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:103    .text._Z11UsbCallbackPhPm:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:111    .text._Z11UsbCallbackPhPm:00000000 _Z11UsbCallbackPhPm
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:412    .text._Z11UsbCallbackPhPm:000000a4 $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:417    .rodata.main.str1.4:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:427    .text.startup.main:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:435    .text.startup.main:00000000 main
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:810    .text.startup.main:000000bc $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:821    .text.startup._GLOBAL__sub_I_hw:00000000 $t
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:828    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1243   .text.startup._GLOBAL__sub_I_hw:00000078 $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1254   .init_array:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1270   .bss.msg_fifo:00000000 msg_fifo
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1263   .bss.hw:00000000 hw
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1259   .bss.hw:00000000 $d
-C:\Users\bobka\AppData\Local\Temp\cctI7hGA.s:1266   .bss.msg_fifo:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:73     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:81     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:81     .text._ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED2Ev:00000000 _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED1Ev
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:103    .text._Z11UsbCallbackPhPm:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:111    .text._Z11UsbCallbackPhPm:00000000 _Z11UsbCallbackPhPm
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:412    .text._Z11UsbCallbackPhPm:000000a4 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:417    .text._Z26Init_Hardware_Encoder_TIM2v:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:425    .text._Z26Init_Hardware_Encoder_TIM2v:00000000 _Z26Init_Hardware_Encoder_TIM2v
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:579    .text._Z26Init_Hardware_Encoder_TIM2v:00000088 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:586    .text._Z15GetEncoderTicksv:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:594    .text._Z15GetEncoderTicksv:00000000 _Z15GetEncoderTicksv
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:611    .text._Z15GetEncoderTicksv:00000008 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:616    .rodata.main.str1.4:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:626    .text.startup.main:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:634    .text.startup.main:00000000 main
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1020   .text.startup.main:000000d0 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1032   .text.startup._GLOBAL__sub_I_hw:00000000 $t
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1039   .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1454   .text.startup._GLOBAL__sub_I_hw:00000078 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1465   .init_array:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1482   .bss.goal_ticks:00000000 goal_ticks
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1476   .bss.current_ticks:00000000 current_ticks
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1489   .bss.htim2:00000000 htim2
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1503   .bss.msg_fifo:00000000 msg_fifo
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1496   .bss.hw:00000000 hw
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1473   .bss.current_ticks:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1479   .bss.goal_ticks:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1485   .bss.htim2:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1492   .bss.hw:00000000 $d
+C:\Users\bobka\AppData\Local\Temp\ccPM5vvf.s:1499   .bss.msg_fifo:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
                            .group:00000000 _ZN5daisy4FIFOINS_11FixedCapStrILj128EcEELj16EED5Ev
 
 UNDEFINED SYMBOLS
 memset
 memcpy
+HAL_GPIO_Init
+HAL_TIM_Encoder_Init
+HAL_TIM_Encoder_Start
 _ZN5daisy9DaisySeed4InitEb
 _ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
 _ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
